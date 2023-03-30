@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+        }
+        body{
+            width: 1111px;
+            margin: auto;
+        }
+        .me{
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        .me>li{
+            background-color: gray;
+            padding: 5px 30px;
+            margin: 10px 20px;
+        }
+        .me li:hover{
+            background-color: rgb(83, 83, 83);
+        }
+        .me li:hover >.con {
+            opacity: 1;
+            transition: ease 0.3s;
+            z-index: 1;
+            transform: translateY(5px);
+        }
+        .con{
+            position: absolute;
+            opacity: 0;
+            background-color: rgb(199, 214, 226,0.5);
+            transform: translateY(50px);
+            width: 200px;
+            text-align: center;
+            margin-left: -30px;
+        }
+        .me li:hover ~ .img{
+            z-index: 0;
+            transition: all 0;
+        }
+        .img{
+            width: 1111px;
+            height: 350px;
+            position: absolute;
+        }
+        .me li:nth-child(1) .con{
+            width: 500px;
+            height: auto;
+            margin-left: -100px;
+        }
+        .gg{
+            display: flex;
+            justify-content: space-around;
+        }
+        .img2,.k{
+            width: 200px;
+            height: 300px;
+        }
+        .p{
+            transform: translateY(0px);
+            transition: all 3s;
+        }
+        .o #su:checked ~ .p{
+            transform: translateY(500px);
+            transition: all 7s;
+        }
+        .o #su:checked ~ .p h2{
+            color: red;
+        }
+        h1{
+            margin-top: 50px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="me">
+                <li>Game
+                    <ul class="con">
+                        <div class="gg">
+                            <div class="g">
+                                <a href="#"><li>game1</li></a>
+                                <a href="#"><li>game1</li></a>
+                                <a href="#"><li>game1</li></a>
+                                <a href="#"><li>game1</li></a>
+                            </div>
+                            <div class="g">
+                                <a href="#"><li>game1</li></a>
+                                <a href="#"><li>game1</li></a>
+                                <a href="#"><li>game1</li></a>
+                                <a href="#"><li>game1</li></a>
+                            </div>
+                            <img class="img2" src="./project./img_project/a12.jpg" alt="">
+                        </div>
+                        
+                    </ul>
+                </li>
+                <li>Game
+                    <ul class="con">
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                    </ul>
+                </li>
+                <li>Game
+                    <ul class="con">
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                    </ul>
+                </li>
+                <li>Game
+                    <ul class="con">
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                    </ul>
+                </li>
+                <li>Game
+                    <ul class="con">
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                        <a href="#"><li>game1</li></a>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <img class="img" src="http://www.elle.vn/wp-content/uploads/2017/10/17/elle-viet-nam-loai-cay-dep-16.jpg" alt="">
+    </header>
+    <main>
+        <div class="o">
+            <input type="checkbox" id="su" hidden>
+            <div class="p">
+                <img class="k" src="./project./img_project/a1.jpg" alt="">
+                <h2>võ lê</h2>
+            </div>
+            <label for="su"><h1>võ lê</h1></label>
+        </div>
+    </main>
+</body>
+</html>

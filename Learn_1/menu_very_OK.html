@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all{
+            width: 1111px;
+            margin: 0 auto;
+        }
+        header {
+            width: 1111px;
+            background-color: black;
+            color: white;
+            position: fixed;
+            transition: all 1s;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <header class="d">
+            <nav id="fixNav" class="g">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Diễn đàn</a></li>
+                    <li><a href="#">Newbie</a></li>
+                    <li><a href="#">Html & CSS</a></li>
+                    <li><a href="#">PHP & MySQL</a></li>
+                    <li><a href="#">jQuery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
+        <script>
+            var k = $("header").addClass("vo");
+            $(document).ready(function() {
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() <= 50) {
+                        k.show();
+                        document.querySelector(".d").style.opacity=1;
+                    } else if ($(this).scrollTop() <= 250) {
+                        k.hide();
+                        document.querySelector(".d").style.opacity=0;
+                    } else {
+                        k.show();
+                        document.querySelector(".d").style.opacity=1;
+                    }
+                });
+            });
+        </script>
+        <p class="d">sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+
+        <p>sdsc</p>
+        <p>sdsc</p>
+
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+
+        <p>sdsc</p>
+        <p>sdsc</p>
+
+
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+        <p>sdsc</p>
+    <!-- <script>
+        jQuery(document).ready(function($) {
+            //selector đến menu cần làm việc
+            // var TopFixMenu = $("#fixNav");
+            var TopFixMenu = document.querySelector("fixNav");
+            // dùng sự kiện cuộn chuột để bắt thông tin đã cuộn được chiều dài là bao nhiêu.
+            $(window).scroll(function() {
+                // Nếu cuộn được hơn 150px rồi
+                if ($(this).scrollTop() > 150) {
+                    // Tiến hành show menu ra   
+                    TopFixMenu.show();
+                } else {
+                    // Ngược lại, nhỏ hơn 150px thì hide menu đi.
+                    TopFixMenu.hide();
+                }
+            })
+        })
+    </script> -->
+    </div>
+        <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ...">
+            Save changes
+        </button>
+        <script>
+            document.addEventListener("keydown", function (event){
+                if (event.ctrlKey){
+                event.preventDefault();
+                }
+                if(event.keyCode == 123){
+                event.preventDefault();
+                }
+            });
+            document.addEventListener("contextmenu",event => event.preventDefault());
+        </script>
+</body>
+
+</html>

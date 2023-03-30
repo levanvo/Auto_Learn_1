@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all{
+            width: 1234px;
+            margin: auto;
+        }
+        img{
+            width: 100px;
+            height: fit-content;
+            transition: all 3s;
+        }
+        img:hover{
+            transform: rotate(180deg);
+            transition: all 3s;
+        }
+        img:hover{
+            box-shadow: 0 0 5px 2px red;
+        }
+        header{
+            display: flex;
+        }
+        nav{
+            background-color: rgb(172, 161, 161);
+            opacity: 0;
+            transform: translateX(-200px);
+            transition: all 3s;
+        }
+        #k:checked ~ nav{
+            opacity: 1;
+            transform: translateX(-5px);
+            transition: all 3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <header>
+            <input type="checkbox" id="k" hidden>
+            <nav>
+                <ul class="me">
+                    <li>GAME
+                        <ul class="con">
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                        </ul>
+                    </li>
+                    <li>GAME
+                        <ul class="con">
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                        </ul>
+                    </li>
+                    <li>GAME
+                        <ul class="con">
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                        </ul>
+                    </li>
+                    <li>GAME
+                        <ul class="con">
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                            <a href="#"><li>game1</li></a>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <label for="k" class="overplay"></label>
+            <label for="k"><img src="file:///C:/Users/admin/Downloads/img/lacay.svg" alt=""></label>
+        </header>
+    </div>
+</body>
+</html>

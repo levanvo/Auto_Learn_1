@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="w-[1200px] mx-auto">
+    <div class="text-2xl font-bold">Chuỗi đầu tiên: <span class="text-xl font-medium" id="firts"></span></div>
+    <input class="border border-gray-500" type="text" value="" id="ip">
+    <button class="border border-gray-600 w-44 hover:bg-gray-100" onclick="add_text()">Add more</button>
+    <button class="border border-gray-600 w-44 hover:bg-gray-100" onclick="last_text()">expul last element</button>
+    <button class="border border-gray-600 w-44 hover:bg-gray-100" onclick="first_text()">expul first element</button>
+    <button class="border border-gray-600 w-44 hover:bg-gray-100" onclick="change_l_text()">Change last text</button>
+    <button class="border border-gray-600 w-44 hover:bg-gray-100" onclick="change_f_text()">Change first text</button>
+    <br>
+    <script>
+        let y = ["game", " market", " park", " city", " nautilurt"];
+        let i=0;
+        y.op="haha";
+        
+        y.forEach(element => {
+            ++i;
+            document.write("Vị trí: "+i+" là: "+element+"<br>");
+        });
+        let ok = document.getElementById("firts").innerHTML = y;
+        // get value
+
+        function add_text() {
+            let ip = document.querySelector("#ip").value;
+            y.splice(1, 0, ip);
+            document.getElementById("firts").innerHTML = y;
+        }
+        function last_text() {
+            y.pop();
+            document.getElementById("firts").innerHTML = y;
+        }
+        function first_text() {
+            y.shift();
+            document.getElementById("firts").innerHTML = y;
+        }
+        function change_l_text() {
+            let su = document.querySelector("#ip").value;
+            if (su != "") {
+                y.push(su);
+            }
+            document.getElementById("firts").innerHTML = y;
+        }
+        function change_f_text() {
+            let siu = document.getElementById("ip").value;
+            if (siu != "") {
+                y.unshift(siu);
+            }
+            document.getElementById("firts").innerHTML = y;
+        }
+        y.join("");
+        y.forEach(okk=>{
+            document.write(okk)
+        })
+        console.log(y);
+    </script>
+</body>
+
+</html>

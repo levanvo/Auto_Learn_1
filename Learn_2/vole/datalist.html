@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="">
+        <label>part 1</label>
+        <input type="text" id="txt_ide" list="ide" />
+        <datalist id="ide">
+            <option value="Brackets" />
+            <option value="Coda" />
+            <option value="Dreamweaver" />
+            <option value="Espresso" />
+            <option value="jEdit" />
+            <option value="Komodo Edit" />
+            <option value="Notepad++" />
+            <option value="Sublime Text 2" />
+            <option value="Taco HTML Edit" />
+            <option value="Textmate" />
+            <option value="Text Pad" />
+            <option value="TextWrangler" />
+            <option value="Visual Studio" />
+            <option value="VIM" />
+            <option value="XCode" />
+        </datalist>
+    </div>
+    <div class="">
+        <label>part 2</label>
+        <select name="" id="">
+            <option value="">ú òa</option>
+            <option value="Brackets" />
+            <option value="Coda" \>Dreamweaver
+            <option value="Dreamweaver">Dreamweaver</option>
+            <option value="Espresso">
+            <option value="jEdit">
+            <option value="Komodo Edit">
+            <option value="Notepad++">
+            <option value="Sublime Text 2">
+            <option value="Taco HTML Edit">
+            <option value="Textmate">
+            <option value="Text Pad">
+            <option value="TextWrangler">Komodo
+            <option value="Visual Studio">
+            <option value="VIM">
+            <option value="XCode">
+            <option value="Notepad++">
+            <option value="Sublime Text 2">
+            <option value="Taco HTML Edit">
+            <option value="Textmate">
+            <option value="Text Pad">
+            <option value="TextWrangler">
+            <option value="Visual Studio">
+            <option value="VIM">
+            <option value="XCode">
+        </select>
+    </div>
+    <div class="">
+        <label>part 3:
+        <input list="vo">
+        <!-- <input type="text" id="txt_ide" list="id" /> -->
+        <datalist id="vo">
+            <option value="Brackets" label="by Adobe" />
+            <option value="Coda" label="by Panic" />
+            <option value="Dreamweaver" />
+            <option value="Espresso" />
+            <option value="jEdit" label="ú huhu"/>
+            <option value="Komodo Edit" />
+            <option value="Notepad++" />
+            <option value="Sublime Text 2" label="the developer's choice" />
+            <option value="Taco HTML Edit" />
+            <option value="Textmate" />
+            <option value="Text Pad" />
+            <option value="TextWrangler" />
+            <option value="Visual Studio" />
+            <option value="VIM" />
+            <option value="XCode" />
+            <option value="hiha">ơi</option>
+        </datalist></label>
+    </div>
+    <progress max="100" min="0" id="c"></progress>
+    <button onclick="h()">Bắt đầu</button>
+    <p>Chạy được: <span id="b"></span></p>
+    <script>
+        var i=0;
+        function h(){
+                // setInterval(function(){
+                    i++;
+
+            document.querySelector("#c").value=i;
+            document.getElementById("b").innerHTML=i+"%";
+            if(i>99){
+                i=0;
+            }
+                // },1000);
+        }
+        setInterval("h()",700);
+    </script>
+    <progress class="d"></progress>
+</body>
+
+</html>

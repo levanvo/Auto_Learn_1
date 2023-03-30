@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .vo{
+            overflow-y: scroll;
+        }
+        .vo::-webkit-scrollbar{
+            width: 10px;
+        }
+        .vo::-webkit-scrollbar-thumb{
+            background-color: aqua;
+        }
+        ul li{
+            padding: 30px 0;
+            border: 1px solid white;
+            background-color: #000000;
+            color: aliceblue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p class="text-center font-bold text-6xl mt-5">Test Scroll</p>
+    <div class="vo w-[500px] h-[550px] mt-5 mx-auto border-4 border-green-500">
+        <ul>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+            <a href="#"><li>game</li></a>
+        </ul>
+    </div>
+</body>
+</html>

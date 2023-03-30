@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="./auto_learn.js"></script> -->
+</head>
+
+<body>
+    <div class="vole">
+
+    </div>
+    <script>
+        console.log(document);
+        const root = document.createElement("h1");
+        root.innerHTML = "Lê Văn Võ";
+        root.classList.add("class-vo");
+        const class_any = document.querySelector(".vole");
+        class_any.prepend(root);//đầu của anythings
+        class_any.append(root);//cuối của anythings
+        class_any.before(root);//trên của anythings
+        class_any.after(root);//dưới của anythings
+        // class_any.remove();//xóa class name===========================================
+        
+
+
+        // note
+        // clear() : xóa hết các phàn tử
+        //     3.delete (value) xóa 1 phần tử trong tập hợp
+    </script>
+    
+</body>
+
+</html>c

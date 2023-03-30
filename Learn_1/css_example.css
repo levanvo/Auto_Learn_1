@@ -1,0 +1,10 @@
+:root{
+    --rong:900px;
+    --cao:500px;
+    --bg:red;
+}
+.op{
+    background: var(--bg);
+    width: var(--rong);
+    height: var(--cao);
+}

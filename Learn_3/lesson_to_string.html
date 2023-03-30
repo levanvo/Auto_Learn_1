@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String_basic</title>
+</head>
+<body>
+    <script>
+        var a="Học Javascript rất vui nên hãy học Javascript, học nhiều mới hiểu Javascript nhiều !";
+        var aaaaaaaaa="LÊ VĂN VÕ";
+        var b1=a.charAt(5);//find place 5 of text
+        var b2=a.replace(/Javascript/g,"Lê Văn Võ");//replace all Javascript
+        console.log(a);
+        var b3=a.replace("Javascript","Lê Văn Võ");//replace one Javascript
+        var b4=a.slice(3,13);//get only Javascript -- it's cut cut
+        var b5=a.indexOf("học",33);//find to place
+        var b6=a.indexOf("học");//find to first
+        var b7=a.lastIndexOf("học");//find to last
+        var b8=a.toUpperCase();//text uppercase
+        var b9=a.toLowerCase();//text lowercase
+        var b10=a.trim();//remove space both side
+        var b11=a.concat(aaaaaaaaa);//connect content
+        console.log(typeof a);//show stype of (var a).
+        console.log(a);
+    </script>
+    <script>
+        var b=3.3455463;
+        var b1=b.toFixed();//b=3 rounding
+        var b2=b.toFixed(3);//b=3.345 get three decimal
+        console.log(b2);
+    </script>
+    <script>
+        var c=["java","php","ruby"];
+        c.splice(1,0,"võ");//place 1 + not delete anythings and can add somethings in position 1 of (var c) || (vị trí thay thế NaN, số ptu bị xóa tính từ vị trí thay thế, 1 hoặc nhiều value đc thêm)
+        // c.pop();//delete to last
+        // c.push('võ');//add one to last
+        // c.shift();//delete to start
+        // c.unshift("ok đi");//add one to start
+        console.log(c);
+        // ============================================================
+        function ho(){
+            var ok="";
+            for(var i of arguments){//arguments is array get all inside function .
+                // ok+=i+" - ";
+                ok+=`${i} và `;
+            }
+            console.log(ok);
+        }
+        ho(5,"huli","ok đi");
+    </script>
+</body>
+</html>

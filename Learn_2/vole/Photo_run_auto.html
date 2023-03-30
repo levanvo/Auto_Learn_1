@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="./output.css"> -->
+    <style>
+        .slider {
+            position: absolute;
+            transition: opacity 1s ease;
+            /* transition: opacity ease 1s; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text-center">
+        <img class="slider w-72" src="./images/book1.jpg" alt="">
+        <img class="slider w-72" src="./images/book2.jpg" alt="">
+        <img class="slider w-72" src="./images/book3.jpg" alt="">
+    </div>
+    <!-- <img class="w-12 md:w-28" src="./images/logo.png" alt=""> -->
+    <script>
+        const images = document.querySelectorAll(".slider");
+        console.log(images);
+        let current = 0;
+        function changeImage() {
+            setInterval(function changeImage() {
+                for (let i = 0; i < images.length; i++) {
+                    images[i].style.opacity = 0;
+                }
+                if (current > images.length - 2) {
+                    current = 0;
+                } else {
+                    current = current + 1;
+                }
+                images[current].style.opacity = 1;
+            }, 1000);
+        }
+        changeImage();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="vo" width="700px" height="500px" style="border: solid 3px brown;margin-left: 26%;"></canvas>
+    <script>
+        var t=document.getElementById("vo");
+        var q=t.getContext("2d");
+        var a=t.getContext("2d");
+        var u=t.getContext("2d");
+
+        q.strokeStyle="green";
+        q.lineWidth=5;
+        q.strokeRect(20,20,100,200);
+        q.fillStyle="orange";
+        q.fillRect(130,20,200,100);
+
+        q.arc(200,350,70,0,Math.PI,true);
+        q.stroke();
+        q.strokeStyle="black"
+        q.arc(600,350,70,0,Math.PI*2,false);
+        q.stroke();
+
+        a.moveTo(0,400);
+        a.lineTo(500,600);
+        a.strokeStyle="violet"
+        a.stroke();
+
+                //attention line thirty five u and t.
+                var gradient = u.createLinearGradient(0, 0, t.width, 0);
+                    gradient.addColorStop("0", "magenta");
+                    gradient.addColorStop("0.5", "blue");
+                    gradient.addColorStop("1.0", "red");
+        u.fillStyle = gradient;
+        u.font = "30px Verdana";
+        u.fillText("Cười tươi nào!", 400, 90);
+        // u.moveTo(500,600);
+        // u.lineTo(400,700);
+        // u.stroke();
+    </script>
+    <button ondblclick="alert('hi')">ra</button>
+    <span ondblclick="alert('ondblclick')" id="unselectable">Unselectable</span>
+</body>
+</html>

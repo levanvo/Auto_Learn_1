@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <progress max="100" min="0" id="c"></progress>
+    <button onclick="h()">Bắt đầu</button>
+    <p>Chạy được: <span id="b"></span></p>
+    <script>
+        var i=0;
+        var vo=700;
+        function h(){
+            i++;
+            document.querySelector("#c").value=i;
+            document.getElementById("b").innerHTML=i+"%";
+            if(i>99){
+                i=0;
+            }
+            var o=1000;
+            setInterval("h()",o);    
+        }
+
+    </script>
+    <!-- <progress></progress> -->
+</body>
+</html>

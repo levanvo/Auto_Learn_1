@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #slideshow {
+            overflow: hidden;
+            height: 510px;
+            width: 728px;
+            margin: 0 auto;
+        }
+        .slide-wrapper {
+            width: 2184px;
+            animation: slide 4s ease infinite;
+        }
+        .slide {
+            float: right;
+            height: 510px;
+            width: 728px;
+        }
+        /* if extract TAILWIND required line 26 - 28 and create element ".img" at place tag <img > */
+        .img{
+            height: 510px;
+            width: 728px;
+        }
+        @-webkit-keyframes slide {
+                /* 20% {
+                    margin-left: 0px;
+                }
+                30% {
+                    margin-left: -728px;
+                }
+                50% {
+                    margin-left: -728px;
+                }
+                60% {
+                    margin-left: -1456px;
+                }
+                80% {
+                    margin-left: -1456px;
+                } */
+            30%{
+                margin-left: -730px;
+            }
+            60%{
+                margin-left: -1460px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h3 class="text-center">Tạo slideshow bằng HTML Và CSS</h3>
+    <div id="slideshow">
+        <div class="slide-wrapper">
+            <div class="slide">
+                <a href="tiki.vn">
+                    <img class="img" src="https://images.pexels.com/photos/2382325/pexels-photo-2382325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </a>
+            </div>
+            <div class="slide">
+                <a href="https://mail.google.com/mail/u/0/?pli=1#inbox">
+                    <img class="img" src="https://images.pexels.com/photos/3578393/pexels-photo-3578393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </a>
+            </div>
+            <div class="slide">
+                <a href="https://translate.google.com/?hl=vi&sl=en&tl=vi&op=translate">
+                    <img class="img" src="https://images.pexels.com/photos/4484184/pexels-photo-4484184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

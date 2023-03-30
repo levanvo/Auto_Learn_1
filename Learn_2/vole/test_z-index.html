@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .anh{
+            background-color: rgb(160, 160, 94);
+            max-width: 1777px;
+            height: 244px;
+            margin: auto;
+        }
+        .a1{
+            background-color: aqua;
+            border:5px solid black;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            z-index: 2;
+        }
+        .a2{
+            background-color: red;
+            border:5px solid black;
+            position: absolute;
+            left: 100px;
+            z-index: 1;
+        }
+        .a2:hover{
+            transform: scale(1.5);
+            transition: ease 2s;
+        }
+        .a3{
+            background-color: green;
+            border:5px solid black;
+            position: absolute;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="anh">
+        <div class="a1 w-40 h-40"></div>
+        <div class="a2 w-40 h-40"></div>
+        <div class="a3 w-40 h-40"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            transition: ease 1s;
+            top: 0;
+            left: 400px;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <img class="a" src="./img_html5.css3/pexels-jahoo-clouseau-388415.jpg" alt="">
+    <img class="a" src="./img_html5.css3/pexels-craig-adderley-1563356.jpg" alt="">
+    <img class="a" src="./img_html5.css3/pexels-nextvoyage-490466.jpg" alt="">
+    <img class="a" src="./img_html5.css3/wallpaper-4k-hinh-nen-4k-chiec-o-to-sieu-dep_101304511.jpg" alt="">
+<h1 id="i">0</h1>
+<h1>Ảnh thứ: <span id="i2">1</span></h1>
+<button onclick="p1()">Next</button>
+<button onclick="p2()">Prev</button>
+    <script>
+        var current=0;
+        var v1=-2;
+        var v2=0;
+        var v3=0;
+        var o=document.querySelectorAll(".a");
+        function p1(){
+            v1++;
+            v2++;
+            for(var i=0;i<o.length;i++){
+                o[i].style.opacity=0;
+            }
+            if(current>o.length-2){
+                current=0;
+            }else{
+                current+=1;
+            }
+            if(v2>4){
+                v2=1;
+            }
+                document.getElementById("i2").innerHTML=v2;
+                document.getElementById("i").innerHTML="Số lần lặp: "+Math.round(v1/4);
+            o[current].style.opacity=1;
+        }
+        function p2(){
+            v1--;
+            v2--;
+            for(var i=0;i<o.length;i++){
+                o[i].style.opacity=0;
+            }
+            if(current<=0){
+                current=o.length-1;
+            }else{
+                current-=1;
+            }
+            if(v2>4){
+                v2=1;
+            }
+                document.getElementById("i2").innerHTML=v2;
+                document.getElementById("i").innerHTML="Số lần lặp: "+Math.round(v1/4);
+            o[current].style.opacity=1;
+        }
+        //  setInterval("p()",1000);
+        // <script>
+        //     function timee(){
+        //         var uop=new Date();
+        //         var tt1=uop.getHours();
+        //         var tt2=uop.getMinutes();
+        //         var tt3=uop.getSeconds();
+        //         if(tt1<10){
+        //             tt1="0"+tt1;
+        //         }
+        //         if(tt2<10){
+        //             tt2="0"+tt2;
+        //         }
+        //         if(tt3<10){
+        //             tt3="0"+tt3;
+        //         }
+        //         document.querySelector("#time").innerHTML=tt1+" : "+tt2+" : "+tt3;
+        //         setInterval("timee()",1000);
+        //     }
+        //     timee();
+        // </script>
+         
+    </script>
+</body>
+</html>

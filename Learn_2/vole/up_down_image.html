@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .ds {
+            display: flex;
+            justify-content: center;
+        }
+        .tong {
+            margin-top: 5%;
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+        #o {
+            position: fixed;
+            z-index: -5;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(violet, yellow, green, black);
+            background-size: 400% 400%;
+            animation: e 5s infinite;
+        }
+        @keyframes e {
+            50% {
+                background-position: 100% 100%;
+            }
+        }
+        .a,.b {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            overflow: hidden;
+        }
+        .b {
+            height: 0;
+            border-bottom: 5px solid aqua;
+            animation: vo 6s infinite alternate;
+        }
+        @keyframes vo {
+            0% {
+                height: 0;
+            }
+
+            100% {
+                height: 500px;
+            }
+        }
+        .c {
+            width: 500px;
+            height: 700x;
+        }
+    </style>
+</head>
+<body>
+    <div class="" id="o"></div>
+    <div class="ds">
+        <div class="tong">
+            <div class="a">
+                <img class="c" src="img/Rectangle-15.png" alt="">
+            </div>
+            <div class="b">
+                <img class="c" src="img/Rectangle-16.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

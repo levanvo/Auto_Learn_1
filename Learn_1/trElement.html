@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --r: red;
+        }
+
+        table,
+        tr,
+        th,
+        td,
+        label {
+            border: 1px solid black;
+            /* color: var(--r); */
+        }
+
+        label {
+            width: 140px;
+
+        }
+
+        .flex input {
+            margin: 0 0 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="w-96 text-center mx-auto">
+        <div class="flex justify-center mt-12 mb-5 space-x-5">
+            <label><input type="radio" name="g" id="t">Điểm thấp</label>
+            <label><input type="radio" name="g" id="đ">Điểm cao</label>
+            <label><input type="radio" name="g" id="ok">Bình thường</label>
+        </div>
+        <thead class="bg-gray-500 text-white">
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Điểm</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Vũ</td>
+                <td>6.4</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Tâm</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lam</td>
+                <td>2.6</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        var tong = document.querySelectorAll("tbody tr");
+        var xem;
+        document.getElementById("t").addEventListener("click", function () {
+            for (p = 0; p < tong.length; p++) {
+                xem = tong[p].children[2].innerHTML;
+                if (xem <= 4.99) {
+                    tong[p].style.background = "red";
+                    tong[p].style.transition = "1s";
+                    tong[p].style.boxShadow = "inset 0 0 3px 15px yellow";
+                } else {
+                    tong[p].style.background = "white";
+                    tong[p].style.color = "black";
+                    tong[p].style.transition = "1s";
+                }
+            }
+        })
+        document.getElementById("ok").addEventListener("click", function () {
+            for (p = 0; p < tong.length; p++) {
+                xem = tong[p].children[2].innerHTML;
+                if (xem > 4.99 & xem < 8) {
+                    tong[p].style.background = "blue";
+                } else {
+                    tong[p].style.background = "none";
+                    tong[p].style.color = "black";
+                    tong[p].style.boxShadow = "none";
+                }
+            }
+        })
+        document.getElementById("đ").addEventListener("click", function () {
+            for (p = 0; p < tong.length; p++) {
+                xem = tong[p].children[2].innerHTML;
+                if (xem > 8) {
+                    tong[p].style.background = "green";
+                    tong[p].style.color = "white";
+                } else {
+                    tong[p].style.background = "none";
+                    tong[p].style.boxShadow = "none";
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

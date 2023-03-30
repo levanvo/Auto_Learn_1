@@ -1,0 +1,52 @@
+.text-banner{
+    transform: translateY(-290px);
+    text-align: center;
+    
+}
+.text-banner>form>input{
+    margin-top: 30px;
+    width: 600px;
+    height: 35px;
+    border: none;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    padding-left: 10px;
+}
+.text-banner>form>button>i{
+    margin-left: -40px;
+}
+.text-banner>form>button{
+    border: none;
+
+}
+.product{
+    margin-bottom: 100px;
+}
+/*------Danh mục --------*/
+.danh_muc, .tieu_de{
+  text-align: center;
+  margin-bottom: 80px;
+}
+.tieu_de{
+    font-size: 30px;
+}
+.danh_muc>button{
+    padding: 7px 15px;
+    margin: 0 5px;
+    border-radius: 30px;
+    border: 1px solid #91ad41;
+    background-color: #fff;
+}
+.danh_muc>button>a{
+    color: #000;
+    text-decoration: none;
+}
+.danh_muc>button>a:hover{
+    color: #fff;
+
+}
+.danh_muc>button:hover{
+    background-color: #91ad41 ;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .form{
+            width: 1000px;
+            height: 366px;
+            margin: auto;
+            border: 2px dashed blue;
+            text-align: center;
+            margin-top: 100px;
+            background: radial-gradient(red,gray);
+            background-size: 400% 400%;
+            animation: ư 5s infinite alternate;
+        }
+        @keyframes ư{
+            50%{
+                background-position: 50%;
+            }
+        }
+        .l{
+            /* border: 1px solid black; */
+            width: fit-content;
+            margin: auto;
+            margin-top: 122px;
+        }
+        .l:hover .inp{
+            position: relative;
+            z-index: 1;
+            transition: all 0.7s;
+            height: 30px;
+            width: 200px;
+            outline: 0;
+            border: 1px solid #00FFFF;
+            opacity: 1;
+        }
+        .inp{
+            opacity: 0;
+            position: absolute;
+            z-index: -1;
+            transition: all 0.2s;
+            height: 0px;
+            width: 0px;
+            
+            outline: 0;
+        }
+        .but{
+            width: 70px;
+            height: 30px;
+            border: 1px solid #00FFFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <form class="form">
+            <div class="l">
+                <input class="inp" type="search" name="" id="" placeholder="Search anythings !">
+                <button type="submit" class="but">Tìm kiếm</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

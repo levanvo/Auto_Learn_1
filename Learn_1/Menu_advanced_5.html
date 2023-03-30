@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .me1{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .me1 li{
+            transition: all 0.4s;
+            background-image: url(https://images.pexels.com/photos/2382325/pexels-photo-2382325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+            color: white;
+            font-weight: bold;
+            width: 200px;
+            height: 40px;
+            line-height: 38px;
+            margin: 0 5px 0 0;
+        }
+        .me1 li:hover{
+            transition: all 0.4s;
+            background-image: url(https://images.pexels.com/photos/4484184/pexels-photo-4484184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        }
+        .me1 li .e .s{
+            width: 200px;
+            height: 40px;
+            margin-top: 5px;
+        }
+        .me1 li .e{
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s;
+            position: absolute;
+            z-index: -1;
+        }
+        .me1 .g:hover .e{
+            opacity: 1;
+            transform: translateY(0);
+            transition: all 0.4s;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-[1222px] mx-auto">
+        <nav class="mb-5 mt-10">
+            <ul class="me1">
+                <a href="#"><li class="g">Game 1</a>
+                    <div class="e mt-3 bg-red-300 w-[800px] h-[400px] flex justify-center space-x-10">
+                        <div class="s">
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                        </div>
+                        <div class="s hover:bg-gray-900 bg-black">
+                            <a href="#"><p>Bên phải</p></a>
+                        </div>
+                        <img class="w-[300px] h-[200px]" src="https://images.pexels.com/photos/4484184/pexels-photo-4484184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                    </div>
+                </li>
+                <li>Game 2</li>
+                <li>Game 3</li>
+                <li>Game 4</li>
+            </ul>
+        </nav>
+        <img class="w-[1222px] h-[555px]" src="https://file.hstatic.net/1000075078/file/desktop_feebd8ed12a54be691533bedfa44c7e3.jpg" alt="">
+    </div>
+</body>
+</html>

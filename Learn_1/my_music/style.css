@@ -1,0 +1,764 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    width: 1234px;
+    margin: auto;
+    transition: ease 0.5s;
+}
+.mmb{
+    width: 1234px;
+    height: 224px;
+    margin-top: 56px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    top: 30px;
+    background-color: rgba(222, 226, 230, 0.258);
+    position: fixed;
+    width: 1234px;
+    z-index: 2000;
+    border-radius: 222px 222px 0 0;
+}
+.header>form input{
+    height: 26px;
+    margin-top: 13.5px;
+}
+.khio{
+    font-size: 13px;
+    width: 60px;
+    border: 2px solid gray;
+}
+.button{
+    height: 28px;
+    width: 60px;
+    font-size: 16px;
+    margin-top: 13.5px;
+}
+.header form button,input{
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+form input:focus::placeholder{
+    border: 25px solid aquamarine;
+    transition: all 1s;
+}
+.me{
+    display: flex;
+}
+.me li .con{
+    display: none;
+}
+.me li{
+    padding: 10px 20px;
+    margin: 5px 10px;
+    background: linear-gradient(-50deg,violet,green,red,blue);
+    color: white;
+    text-shadow: 5px 5px 5px green;
+    font-family: vo;
+    position: relative;
+    border-radius: 50px 0 50px 0;
+}
+@font-face {
+    font-family: vo;
+    src: url(https://fonts.gstatic.com/s/permanentmarker/v7/9vYsg5VgPHKK8SXYbf3sMsW72xVeg1938eUHStY_AJ4.woff2);
+}
+.me>li:hover{
+    box-shadow:  0 0 5px 5px white;
+    transition: all 0.4s;
+}
+.me .s:hover{
+    box-shadow: 0 0 10px 5px black;
+    transition: all 0.4s;
+    background-image: url(./img/a30.jpg);
+    background-size: 100%;
+}
+.me>li:hover>.con{
+    display:block;
+    position: absolute;
+}
+.me li:hover>.con li{
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.774);
+    text-shadow: 2px 2px 2px red;
+    color: aliceblue;
+    margin: -12px 0;
+}
+.me li:hover>.con li:hover{
+    /* box-shadow: inset 0 0 5px 5px white; */
+    transition: all 0.3s;
+    border-radius: 0 50px 0 50px;
+    text-shadow: 1px 1px 1px yellow;
+    color: red;
+}
+.me li:hover>.con li:nth-child(1){
+    margin-top: 15px;
+}
+.me2{
+    position: relative;
+}
+.me2 .con2{
+    display: none;
+}
+#hkop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg,rgba(255, 0, 76, 0.534),rgba(0, 0, 0, 0.466),rgba(255, 0, 76, 0.534),rgba(255, 255, 0, 0.5),rgba(1, 255, 85, 0.541));
+    background-size: 444% 568%;
+    animation: go 10s infinite;
+}
+@keyframes go{
+    50%{
+        background-position: 50% 50%;
+    }
+}
+.me2:hover .con2{
+    margin:-45px 0 0 228px;
+    display: block;
+    position: absolute;
+}
+.me2:hover .con2 li{
+    height: 40px;
+    /* width: fit-content; */
+}
+.game p{
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    line-height: 80px;
+    /* padding: 50px 150px; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 3;
+    border-radius: 5px;
+    font-weight: bold;
+    border:  10px dashed white;
+    top: 730px;
+    left: 450px;
+}
+.game p:hover{
+    transition: all 0.3s;
+    box-shadow:inset 0 0 40px 1px white;
+    font-family: cursive;
+    font-size: 30px;
+    /* overflow: hidden; */
+    /* padding: 5px 15px; */
+}
+.so1{
+    position: absolute;
+    top: 1000px;
+    left: 250px;
+    z-index: 3;
+    
+}
+.so1 iframe{
+    border-radius: 33px;
+    width: 760px;
+    height: 355px;
+}
+.time{
+    text-align: center;
+    font-family: cursive;
+    border-bottom: 2px solid white;
+}
+#time{
+    font-size: 10px;
+    line-height: 28px;
+}
+.mmb{
+    filter: hue-rotate(0deg);
+    animation: vo 1s infinite alternate;
+}
+@keyframes vo{
+    20%{
+        filter: hue-rotate(10deg);
+    }
+    46%{
+        filter: hue-rotate(24deg);
+    }
+    64%{
+        filter: hue-rotate(33deg);
+    }
+    87%{
+        filter: hue-rotate(56deg);
+    }
+}
+.A{
+    animation: vo1 10s infinite;
+    border-bottom: gray 1px solid;
+}
+@keyframes vo1{
+    0%{
+        background-color: white;
+        color: black;
+        text-shadow: 1px 1px 0px pink;
+    }
+    50%{
+        background-color: black;
+        color: white;
+    }
+}
+.key2{
+    opacity: 0;
+    /* position: relative; */
+}
+.key1{
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    width: 100%;
+    height: 1500px;
+    top: 0%;
+    background-color: rgb(29, 120, 211);
+}
+.entertaiment{
+    position: absolute;
+    z-index: 5;
+    left: 46%;
+    top: 53%;
+    width: 150px;
+}
+.entertaiment img{
+    border-radius: 100px;
+    filter: invert(100%);
+    box-shadow: 0 0 20px 10px black;
+    animation: 2000s vo5 infinite;
+}
+@keyframes vo5{
+    50%{
+        transform: rotate(99999deg);
+    }
+}
+.key3{
+    width: 800px;
+    /* border: 5px solid gray; */
+    /* box-shadow:inset 15px 0px 51px 0px black; */
+    box-shadow: inset 0 0 11px 1px black;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    animation: kkk 6s infinite;
+    margin-top: 100px;
+}
+@keyframes kkk{
+    10%{
+        box-shadow: inset 0 0 31px 21px rgba(255, 0, 0, 0.8);
+    }
+    30%{
+        box-shadow: inset 0 0 31px 15px rgba(255, 0, 0, 0.8);
+    }
+    60%{
+        box-shadow: inset 0 0 31px 10px rgba(255, 0, 0, 0.8);
+    }
+    90%{
+        box-shadow: inset 0 0 31px 4px rgba(255, 0, 0, 0.8);
+    }
+}
+.key3 .input{
+    margin-top: 30px;
+    height: 50px;
+    width: 350px;
+    font-size: 25px;
+    color: green;
+}
+.key3 .button{
+    border: 1px solid gray;
+    width: 150px;
+    height: 35px;
+}
+.key3 .button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.key3 .h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.key3 .h2 .color{
+    color: red;
+}
+@media only screen and (max-width: 1222px){
+    .header{
+        background-color: gray;
+        width: 1111px;
+    }
+    .split{
+        height: 270px;
+    }
+    .me2:hover .con2{
+        margin:-47px 0 0 238px;
+        display: block;
+        position: absolute;
+    }
+    .con .me2:hover .con2 li{
+        height: 38px;
+        text-align: center;
+        width: 200px;
+    }
+    .me2:hover .con2 li{
+        line-height: 37px;
+    }
+    .all{
+        width: 1111px;
+        margin: auto;
+    }
+    .mmb{
+        width: 1111px;
+        /* object-fit: cover; */
+        height: 190px;
+        margin-top: 42px;
+    }
+    nav .me li{
+        padding: 6px 11px;
+        margin: 2px 6px;
+        font-size: 14.5px;
+    }
+    .me li:hover>.con li{
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.774);
+        text-shadow: none;
+        color: aliceblue;
+        margin: -12px 0;
+    }
+    .header form button,input{
+        border: none;
+        border-radius: 3px;
+        height: 26px;
+        margin-top: 7px;
+    }
+    .header>form input{
+        height: 26px;
+        margin-top: 7px;
+    }
+    .khio{
+        font-size: 13px;
+        width: 60px;
+        border: 2px solid black;
+    }
+    .button{
+        box-shadow:inset 0 0 2px 2px black;
+        width: 50px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .entertaiment{
+        left: 46%;
+        top: 50%;
+        width: 140px;
+    }
+/*  */
+    .game p{
+        width: 320px;
+        height: 100px;
+        text-align: center;
+        line-height: 80px;
+        /* padding: 50px 150px; */
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 3;
+        border-radius: 5px;
+        font-weight: bold;
+        border:  8px dashed white;
+        top: 680px;
+        left: 410px;
+    }
+    .game p:hover{
+        transition: all 0.3s;
+        box-shadow:inset 0 0 35px 1px white;
+        font-family: cursive;
+        font-size: 29px;
+        /* overflow: hidden; */
+        /* padding: 5px 15px; */
+    }
+    .so1{
+        position: absolute;
+        top: 900px;
+        left: 225px;
+        z-index: 3;
+        
+    }
+    .so1 iframe{
+        border-radius: 33px;
+        width: 680px;
+        height: 355px;
+    }
+}
+@media only screen and (max-width: 1111px){
+    .all{
+        width: 1011px;
+        margin: auto;
+    }
+    .split{
+        height: 260px;
+    }
+    .header{
+        background-color: rgb(15, 159, 196);
+        width: 1011px;
+    }
+    .con .me2:hover .con2 li{
+        height: 33px;
+        text-align: center;
+        width: 200px;
+    }
+    .me2:hover .con2{
+        margin:-42px 0 0 238px;
+        display: block;
+        position: absolute;
+    }
+    .mmb{
+        width: 990px;
+        height: 180px;
+        margin-top: 39px;
+    }
+    nav .me li{
+        padding: 5px 10px;
+        margin: 2px 6px;
+        font-size: 14.5px;
+    }
+    .header>form input{
+        height: 26px;
+        margin-top: 5px;
+    }
+    .entertaiment{
+        left: 46%;
+        top: 46%;
+        width: 140px;
+    }
+    /*  */
+    .game p{
+        width: 300px;
+        height: 100px;
+        text-align: center;
+        line-height: 80px;
+        /* padding: 50px 150px; */
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 3;
+        border-radius: 5px;
+        font-weight: bold;
+        border:  8px dashed white;
+        top: 630px;
+        left: 365px;
+    }
+    .game p:hover{
+        transition: all 0.3s;
+        box-shadow:inset 0 0 30px 1px white;
+        font-family: cursive;
+        font-size: 28px;
+        /* overflow: hidden; */
+        /* padding: 5px 15px; */
+    }
+    .so1{
+        position: absolute;
+        top: 850px;
+        left: 225px;
+        z-index: 3;
+        
+    }
+    .so1 iframe{
+        border-radius: 33px;
+        width: 580px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 999px){
+    .header{
+        background-color: rgba(212, 24, 181, 0.521);
+        width: 900px;
+    }
+    .entertaiment{
+        left: 45%;
+        top: 41%;
+        width: 140px;
+    }
+    .split{
+        height: 240px;
+    }
+    .con .me2:hover .con2 li{
+        height: 29px;
+        text-align: center;
+        width: 180px;
+        line-height: 24px;
+    }
+    .me2:hover .con2{
+        margin:-39px 0 0 168px;
+        display: block;
+        position: absolute;
+        
+    }
+    .me li:hover>.con li{
+        width: 180px;
+        background-color: rgba(0, 255, 242, 0.627);
+        text-shadow: none;
+        color: rgba(251, 255, 4, 0.925);
+        margin: -12px 0;
+    }
+    .all{
+        width: 900px;
+        margin: auto;
+    }
+    .mmb{
+        width: 900px;
+        height: 160px;
+        margin-top: 35px;
+    }
+    nav .me li{
+        padding: 5px 10px;
+        margin: 2px 6px;
+        font-size: 12px;
+    }
+    .header>form input{
+        height: 26px;
+        margin-top: 4px;
+    }
+    /*  */
+    .game p{
+        width: 270px;
+        height: 90px;
+        text-align: center;
+        line-height: 75px;
+        /* padding: 50px 150px; */
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 3;
+        border-radius: 5px;
+        font-weight: bold;
+        border:  6px dashed white;
+        top: 580px;
+        left: 325px;
+    }
+    .game p:hover{
+        transition: all 0.3s;
+        box-shadow:inset 0 0 28px 1px white;
+        font-family: cursive;
+        font-size: 25px;
+        /* overflow: hidden; */
+        /* padding: 5px 15px; */
+    }
+    .so1{
+        position: absolute;
+        top: 750px;
+        left: 210px;
+        z-index: 3;
+        
+    }
+    .so1 iframe{
+        border-radius: 33px;
+        width: 500px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 840px){
+    .header{
+        background-color: rgba(211, 201, 68, 0.785);
+        width: 750px;
+    }
+    .entertaiment{
+        left: 45%;
+        top: 38%;
+        width: 120px;
+    }
+    .key3{
+        border: 5px solid red;
+        box-shadow: inset 0 0 11px 2px rgba(0, 0, 0, 0.685);
+        width: 500px;
+        height: 250px;
+        text-align: center;
+        margin: auto;
+        animation: kkk 5s infinite;
+        margin-top: 100px;
+    }
+    .key3 .h2{
+        font-size: 20px;
+    }
+    @keyframes kkk{
+        10%{
+            box-shadow: inset 0 0 31px 21px rgba(204, 62, 62, 0.5);
+        }
+        30%{
+            box-shadow: inset 0 0 31px 15px rgb(204, 62, 62,0.6);
+        }
+        60%{
+            box-shadow: inset 0 0 31px 10px rgb(204, 62, 62,0.7);
+        }
+        90%{
+            box-shadow: inset 0 0 31px 4px rgb(204, 62, 62,0.8);
+        }
+    }
+    .split{
+        height: 215px;
+    }
+    .me2:hover .con2{
+        margin:-34px 0 0 124px;
+        display: block;
+        position: absolute;
+    }
+    .con .me2:hover .con2 li{
+        line-height: 19px;
+        height: 23px;
+        width: 160px;
+    }
+    .me li:hover>.con li{
+        width: 130px;
+        background-color: rgba(115, 255, 0, 0.712);
+        text-shadow: none;
+        color: rgba(255, 255, 255, 0.986);
+        margin: -12px 0;
+    }
+    .all{
+        width: 750px;
+        margin: auto;
+    }
+    .mmb{
+        width: 750px;
+        height: 130px;
+        margin-top: 35px;
+        /* object-fit: contain; */
+    }
+    nav .me li{
+        padding: 4px 5px;
+        margin: 4px 6px;
+        font-size: 10px;
+    }
+    .header>form input{
+        height: 24px;
+        margin-top: 4px;
+    }
+    /*  */
+    .game p{
+        width: 250px;
+        height: 80px;
+        text-align: center;
+        line-height: 70px;
+        /* padding: 50px 150px; */
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 3;
+        border-radius: 5px;
+        font-weight: bold;
+        border:  6px dashed white;
+        top: 500px;
+        left: 257px;
+    }
+    .game p:hover{
+        transition: all 0.3s;
+        box-shadow:inset 0 0 25px 1px white;
+        font-family: cursive;
+        font-size: 25px;
+        /* overflow: hidden; */
+        /* padding: 5px 15px; */
+    }
+    .so1{
+        position: absolute;
+        top: 650px;
+        left: 155px;
+        z-index: 3;
+        
+    }
+    .so1 iframe{
+        border-radius: 33px;
+        width: 450px;
+        height: 260px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .header{
+        background-color: rgba(250, 21, 21, 0.3);
+        display: block;
+        width: 630px;
+    }
+    .entertaiment{
+        left: 43%;
+        top: 35%;
+        width: 120px;
+    }
+    .split{
+        height: 210px;
+    }
+    .me2:hover .con2{
+        margin:-34px 0 0 125px;
+        display: block;
+        position: absolute;
+    }
+    .con .me2:hover .con2 li{
+        height: 23px;
+        width: 150px;
+    }
+    .me li:hover>.con li{
+        width: 130px;
+        background-color: rgba(224, 28, 110, 0.541);
+        /* text-shadow: 2px 2px 2px red; */
+        color: rgb(197, 209, 197);
+        margin: -12px 0;
+        z-index: 20;
+    }
+    nav .me{
+        display: flex;
+        justify-content: center;
+    }
+    nav .me li{
+        z-index: 10;
+    }
+    form{
+        text-align: center;
+    }
+    .all{
+        width: 630px;
+        margin: auto;
+    }
+    .mmb{
+        width: 630px;
+        height: 100px;
+        margin-top: 65px;
+    }
+    /* #time{
+        text-align: center;
+        margin: 0 0 0 -30px;
+    } */
+    /*  */
+    .game p{
+        width: 200px;
+        height: 65px;
+        text-align: center;
+        line-height: 50px;
+        /* padding: 50px 150px; */
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 3;
+        border-radius: 5px;
+        font-weight: bold;
+        border:  6px dashed white;
+        top: 450px;
+        left: 225px;
+    }
+    .game p:hover{
+        transition: all 0.3s;
+        box-shadow:inset 0 0 23px 1px white;
+        font-family: cursive;
+        font-size: 20px;
+        /* overflow: hidden; */
+        /* padding: 5px 15px; */
+    }
+    .so1{
+        position: absolute;
+        top: 580px;
+        left: 128px;
+        z-index: 3;
+        
+    }
+    .so1 iframe{
+        border-radius: 33px;
+        width: 380px;
+        height: 220px;
+    }
+}

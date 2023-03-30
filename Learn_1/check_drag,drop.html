@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-[555px] float-right h-72 border-2 border-gray-500" ondrop="drop(event)" ondragover="a(event)"></div>
+    <img id="se" class="w-64 h-40" draggable="true" ondragstart="drag(event)" src="./img_html5.css3/pexels-jahoo-clouseau-388415.jpg" alt="">
+    <h1 id="s" draggable="true" ondragstart="drag2(event)">Lê Văn Võ</h1>
+    <script>
+        function a(vo){
+            vo.preventDefault();
+        }
+        function drag2(vo){
+            vo.dataTransfer.setData("text",vo.target.id);
+        }
+        function drag(vo){
+            vo.dataTransfer.setData("text",vo.target.id);
+        }
+        function drop(vo){
+            vo.preventDefault();
+            var d=vo.dataTransfer.getData("text");
+            vo.target.appendChild(document.getElementById(d));
+        }
+    </script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-center mt-5 mb-4 text-3xl">Check text</h1>
+    <div class="w-[300px] h-20 bg-black hover:text-white rounded-md mx-auto" 
+    ondrop="drop(event)" ondragover="a(event)"></div>
+    <h2 id="s" class="text-2xl w-fit mx-auto hover:text-red-500" draggable="true"
+     ondragstart="drag(event)">Anh yêu Em</h2>
+    <div class="w-[222px] h-16 bg-orange-500 rounded-md hover:text-white mx-auto" 
+    ondrop="drop2(event)" ondragover="a2(event)"></div>
+    <script>
+        function a(v){
+            v.preventDefault();
+        }
+            function drag(v){
+                v.dataTransfer.setData("text",v.target.id);
+            }
+            function drop(v){
+                v.preventDefault();
+                var out=v.dataTransfer.getData("text");
+                v.target.appendChild(document.getElementById(out));
+            }
+            function a2(e){
+                e.preventDefault();
+            }
+        function drop2(e){
+            e.preventDefault();
+            var c=e.dataTransfer.getData("text");
+            e.target.appendChild(document.getElementById(c));
+        }
+    </script>
+</body>
+</html> -->

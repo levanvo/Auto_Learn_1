@@ -1,0 +1,129 @@
+.wapper {
+    margin: 0 20px;
+  }
+  .text-banner {
+    transform: translateY(-290px);
+    text-align: center;
+  }
+  .text-banner > form > input {
+    margin-top: 30px;
+    width: 600px;
+    height: 35px;
+    border: none;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    padding-left: 10px;
+  }
+  .text-banner > form > button > i {
+    margin-left: -40px;
+  }
+  .text-banner > form > button {
+    border: none;
+  }
+  
+  /*----khach hàng----*/
+  .grid_kh {
+    display: flex;
+    margin-top: 30px;
+    margin: 0 100px;
+    margin-bottom: 50px;
+    /* grid-gap: 100px; */
+  }
+  .grid_kh .kh1 > span > a {
+    text-decoration: none;
+    color: black;
+  }
+  .grid_kh .kh1 > span,
+  .tab-content-item {
+    line-height: 50px;
+    /* width: 260px; */
+  }
+  .grid_kh .kh1 h3,
+  .grid_kh .kh2 h3 {
+    margin-bottom: 30px;
+  }
+  .grid_kh .kh1 {
+    width: 200px;
+    margin-top: 20px;
+  
+    /* padding-right: 100px; */
+  }
+  .grid_kh .kh2 > p {
+    padding-bottom: 30px;
+    padding-top: 15px;
+  }
+  
+  .grid_kh .kh2 .inbut > input {
+    width: 500px;
+    height: 45px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #f3f0d7;
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  .grid_kh .kh2 .inbut {
+    margin-bottom: 40px;
+  }
+  .grid_kh .kh2 > form > button {
+    width: 130px;
+    border-radius: 30px;
+    color: #fff;
+    height: 45px;
+    border: none;
+    background-image: -webkit-linear-gradient(35deg, #91ad41 0%, #ff8a6c 100%);
+  }
+  .grid_kh .kh2 > button:hover {
+    background-color: #91ad41;
+  }
+  h3 {
+    font-weight: inherit;
+    text-transform: uppercase;
+  }
+  /*------------tab-content-------------*/
+  .tab-content {
+    margin: 0 0 0 100px;
+    width: 800px;
+  }
+  
+  .tab-content-item >h3{
+      /* margin-top: 5px; */
+      margin-bottom: 10px;
+  }
+  .nav-tabs span a{
+      position: relative;
+  
+  }
+  /* .nav-tabs span a:hover,.nav-tabs span a::after {
+    color: #82ae46;
+      
+  } */
+  .nav-tabs span a::after{
+      content: "";
+      position: absolute;
+     
+  
+  }
+  .nav-tabs span.actives a,
+  .nav-tabs span:hover >a {
+    color: #82ae46;
+  
+  }
+  /*------------menu2-------------*/
+  table{
+      line-height: normal;
+      margin-top: 35px;
+  
+  }
+  thead{
+      background-color: #91ad41;
+      color: #fff;
+  }
+  tbody>tr>td, thead>tr>td{
+      padding: 5px ;
+  }
+  
+  
+  

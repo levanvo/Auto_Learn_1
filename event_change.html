@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>
+        Nhập tên của bạn:
+        <input type="text" id="nameInput">
+    </label>
+    <p id="greeting"></p>
+    <script>
+        const nameInput = document.getElementById('nameInput');
+            const greeting = document.getElementById('greeting');
+
+            nameInput.addEventListener('change', (event) => {
+                // Lấy giá trị của input
+                const name = event.target.value;
+
+                // Thay đổi nội dung của phần tử "greeting"
+                greeting.textContent = `Xin chào, ${name}!`;
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+.text-banner{
+    transform: translateY(-290px);
+    text-align: center;
+    
+}
+.text-banner>form>input{
+    margin-top: 30px;
+    width: 600px;
+    height: 35px;
+    border: none;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    padding-left: 10px;
+}
+.text-banner>form>button>i{
+    margin-left: -40px;
+}
+.text-banner>form>button{
+    border: none;
+
+}
+/*------------------------------------------------------*/
+.vocher{
+    display: flex;
+    /* margin: 0 120px; */
+    justify-content: center;
+
+}
+/*------------------------------------------------------*/
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    /* margin-bottom: 100px; */
+    margin: 0;
+
+}
+.product-row{
+    border: 1px solid rgba(220, 220, 220, 0.802);
+}
+.product-text, .overlay{
+    text-align: center;
+}
+.product-text>span{
+    line-height: 40px;
+}
+.product-text>span>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 15px;
+}
+.product-text .line-text{
+    text-decoration-line: line-through;
+    color: gray;
+}
+.product-text{
+    margin-bottom: 20px;
+
+}
+.product-list{
+    position: relative;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transform: translateY(35px);
+}
+.product-list:hover{
+    box-shadow: 0 0 10px rgb(212, 209, 209);
+}
+.product-row:hover{
+    filter: opacity(80%);
+
+}
+/* .product-row:hover >img{
+    transform: scale(1.1);
+} */
+.product-list:hover .overlay{
+    transform: translateY(-190px);
+}
+.overlay>a{
+    background-color: #91ad41;
+    padding: 15px;
+    border-radius: 100px;
+
+}
+.overlay>a>i{
+    font-size: 18px;
+    color: #fff;
+    /* position: relative; */
+}
+.iii >i{
+    color: red;
+   font-size: 50px;
+  
+}
+.sale{
+    transform: translateY(-360px);
+
+}
+
+.seo{
+    margin-right: 100px;
+}
+
+.sale> p{
+    color: #fff;
+    margin-top: -35px;
+    padding-left: 5px;
+    display: block;
+    /* line-height: 50px; */
+
+}
+/*------Danh mục --------*/
+.danh_muc, .tieu_de{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.danh_muc>button{
+    padding: 7px 15px;
+    margin: 0 5px;
+    border-radius: 30px;
+    border: 1px solid #91ad41;
+    background-color: #fff;
+}
+.danh_muc>button>a{
+    color: #000;
+    text-decoration: none;
+}
+.danh_muc>button>a:hover{
+    color: #fff;
+
+}
+.danh_muc>button:hover{
+    background-color: #91ad41 ;
+}
+/*----vocher---*/
+.sp-yeu-thich {
+    /* margin-top: 50px; */
+    width: 200px;
+    margin-left: 100px;
+}
+.sp-yeu-thich ul li{
+    display: block;
+    border: 1px solid gainsboro;
+
+}
+.sp-yeu-thich ul li a {
+    align-items: flex-start;
+    padding: 0px 10px;
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+.sp-yeu-thich ul li a{
+  display: flex;
+}
+.sp-yeu-thich ul li a span{
+    line-height: 45px;
+    padding-left: 10px;
+}
+.sp-yeu-thich ul li:hover a{
+    background-color: rgba(237, 237, 237, 0.364);
+    color: #82ae46;
+
+
+}
+.top-dm{
+    padding: 10px 20px;
+
+    background-color: #82ae46;
+    color: #fff;
+}
+/*-----blog------*/
+.top-blog{
+    width: 200px;
+    margin-left: 100px;
+}
+.blog{
+    /* height: 140px; */
+    margin-bottom: 20px;
+    display: flex;
+}
+.top-blog> h3{
+padding: 50px 0px 30px 0px;
+font-size: 20px;
+}
+.noidung-content{
+    margin-left: 10px;
+}
+.noidung-content> span{
+    color: gray;
+    font-size: 13px;
+}
+.noidung-content>h3{
+    font-size: 17px;
+    color: gray;
+
+}
+.noidung-content>h3:hover{
+color: #91ad41;
+
+}
+.noidung-content>p{
+    font-size: 18px;
+    color: gray;
+}
+.img-5{
+    width: 35px;
+    height: 30px;
+    padding: 2rem !important;
+    position: relative;
+ }
+ .blog-img1, .blog-img3, .blog-img4, .blog-img6 {
+    display:block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* margin-bottom: 80px; */
+}
+.blog-img1{
+    background-image: url('../../img/image_2.jpg');
+}
+.blog-img6{
+    background-image: url('../../img/image_3.jpg');
+}
+.blog-img3{
+    background-image: url('../../img/image_4.jpg');
+}
+.blog-img4{
+    background-image: url('../../img/image_6.jpg');
+}
+

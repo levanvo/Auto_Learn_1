@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    pro get name still pro1 get value OK
+    <label value="1950" id="pro">Iphone 9</label>
+    <input type="number" id="qty">
+    <button onclick="display()">OK</button>
+    <hr>
+    <h3>Name: <span id="name"> </span></h3>
+    <h3>Amount: <span id="amount"></span></h3>
+    <script>
+        function display(){
+            // Attention line 9 to 16
+            var pro=document.getElementById("pro").innerText;
+            // var a1=pro.innerText;
+            var pro1=document.getElementById("pro");
+            var a2=pro1.getAttribute("value");
+            var a3=qty.value;
+            var a4=a3 * a2;
+            document.getElementById("name").innerText=pro;
+            document.getElementById("amount").innerHTML=a4;
+            if(a3==6){
+                alert("Hay và a2="+a2);
+            }else{
+                alert("Ko hay");
+            }
+
+        }
+    </script>
+    <!-- <input type="text" id="q1">
+    <input type="number" id="q2">
+    <h1>Xem: <span id="q2"></span></h1>
+    <button onclick="run()">chạy</button>
+    <script>
+        var q1=document.getElementById("q1");
+        var q2=document.getElementById("q2");
+        function run(){
+           alert("Số: " + strlen(q1));
+        }
+    </script> -->
+</body>
+</html>

@@ -1,0 +1,910 @@
+{
+  "cellphones": [
+    {
+      "categories": {
+        "id": 1795,
+        "name": "Điện thoại Smartphone",
+        "is_leaf": true
+      },
+      "description": "<p>iPhone 13. Hệ thống camera kép tiên tiến nhất từng có trên iPhone. Chip A15 Bionic thần tốc. Bước nhảy vọt về thời lượng pin. Thiết kế bền bỉ. Mạng 5G siêu nhanh.<sup>1</sup> Cùng với màn hình Super Retina XDR sáng hơn.</p>\n<h5>Tính năng nổi bật</h5>\n<ul>\n<li>Màn hình Super Retina XDR 6.1 inch<sup>2</sup></li>\n<li>Chế độ Điện Ảnh làm tăng thêm độ sâu trường ảnh nông và tự động thay đổi tiêu cự trong video</li>\n<li>Hệ thống camera kép tiên tiến với camera Wide và Ultra Wide 12MP; Phong Cách Nhiếp Ảnh, HDR thông minh thế hệ 4, chế độ Ban Đêm, khả năng quay video HDR Dolby Vision 4K</li>\n<li>Camera trước TrueDepth 12MP với chế độ Ban Đêm và khả năng quay video HDR Dolby Vision 4K</li>\n<li>Chip A15 Bionic cho hiệu năng thần tốc</li>\n<li>Thời gian xem video lên đến 19 giờ<sup>3</sup></li>\n<li>Thiết kế bền bỉ với Ceramic Shield</li>\n<li>Khả năng chống nước đạt chuẩn IP68 đứng đầu thị trường<sup>4</sup></li>\n<li>Mạng 5G cho tốc độ tải xuống siêu nhanh, xem video và nghe nhạc trực tuyến chất lượng cao<sup>1</sup></li>\n<li>iOS 15 tích hợp nhiều tính năng mới cho phép bạn làm được nhiều việc hơn bao giờ hết với iPhone<sup>5</sup></li>\n<li>Hỗ trợ phụ kiện MagSafe giúp dễ dàng gắn kết và sạc không dây nhanh hơn<sup>6</sup></li>\n</ul>\n<h5>Pháp lý</h5>\n<p><sup>1</sup>Cần có gói cước dữ liệu. Mạng 5G chỉ khả dụng ở một số thị trường và được cung cấp qua một số nhà mạng. Tốc độ có thể thay đổi tùy địa điểm và nhà mạng. Để biết thông tin về hỗ trợ mạng 5G, vui lòng liên hệ nhà mạng và truy cập <a href=\"http://apple.com/iphone/cellular\">apple.com/iphone/cellular</a></p>\n<p><sup>2</sup>Màn hình có các góc bo tròn theo đường cong tuyệt đẹp và nằm gọn theo một hình chữ nhật chuẩn. Khi tính theo hình chữ nhật chuẩn, kích thước màn hình là 6.06 inch theo đường chéo. Diện tích hiển thị thực tế nhỏ hơn.</p>\n<p><sup>3</sup>Thời lượng pin khác nhau tùy theo cách sử dụng và cấu hình. Truy cập <a href=\"http://apple.com/batteries\">apple.com/batteries</a> để biết thêm thông tin.</p>\n<p><sup>4</sup>iPhone 13 có khả năng chống nước, chống tia nước và chống bụi. Sản phẩm đã qua kiểm nghiệm trong điều kiện phòng thí nghiệm có kiểm soát đạt mức IP68 theo tiêu chuẩn IEC 60529. Khả năng chống tia nước, chống nước và chống bụi không phải là các điều kiện vĩnh viễn. Khả năng này có thể giảm do hao mòn thông thường. Không sạc pin khi iPhone đang bị ướt. Vui lòng tham khảo hướng dẫn sử dụng để biết cách lau sạch và làm khô máy. Không bảo hành sản phẩm bị hỏng do thấm chất lỏng.</p>\n<p><sup>5</sup>Một số tính năng không khả dụng tại một số quốc gia hoặc khu vực.</p>\n<p><sup>6</sup>Phụ kiện được bán riêng.</p>\n<h5>Thông số kỹ thuật</h5>\n<p>Truy cập <a href=\"https://www.apple.com/iphone/compare/\">apple.com/iphone/compare</a> để xem cấu hình đầy đủ.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/ts/product/dd/2b/a6/fefd132c5ba9b5629c0119f57549e5d4.png",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/dd/2b/a6/fefd132c5ba9b5629c0119f57549e5d4.png",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/dd/2b/a6/fefd132c5ba9b5629c0119f57549e5d4.png",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/dd/2b/a6/fefd132c5ba9b5629c0119f57549e5d4.png",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/dd/2b/a6/fefd132c5ba9b5629c0119f57549e5d4.png"
+      },
+      "name": "Apple iPhone 13",
+      "sale_price": 20450000,
+      "original_price": 20490000,
+      "quantity_sold": {
+        "text": "Đã bán 1000+",
+        "value": 3324
+      },
+      "rating": 5,
+      "short_description": "iPhone 13. Hệ thống camera kép tiên tiến nhất từng có trên iPhone. Chip A15 Bionic thần tốc. Bước nhảy vọt về thời lượng pin. Thiết kế bền bỉ. Mạng 5G siêu nhanh.1 Cùng với màn hình Super Retina XDR s...",
+      "specifications": [
+        {
+          "code": "bluetooth",
+          "name": "Bluetooth",
+          "value": "v5.0"
+        },
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": "Apple"
+        },
+        {
+          "code": "brand_country",
+          "name": "Xuất xứ thương hiệu",
+          "value": "Mỹ"
+        },
+        {
+          "code": "camera_sau",
+          "name": "Camera sau",
+          "value": "2 Camera: Góc rộng ống kính f/1.8 - Siêu rộng"
+        },
+        {
+          "code": "chip_set",
+          "name": "Chip set",
+          "value": "Chip A15 Bionic (5nm)"
+        },
+        {
+          "code": "dimensions",
+          "name": "Kích thước",
+          "value": "146.7 x 71.5 x 7.4 mm"
+        },
+        {
+          "code": "display_type",
+          "name": "Loại/ Công nghệ màn hình",
+          "value": "Super Retina XDR"
+        },
+        {
+          "code": "item_model_number",
+          "name": "Model",
+          "value": "iphone 13 128g"
+        },
+        {
+          "code": "origin",
+          "name": "Xuất xứ",
+          "value": "Trung Quốc"
+        },
+        {
+          "code": "port_sac",
+          "name": "Cổng sạc",
+          "value": "Lightning"
+        },
+        {
+          "code": "product_weight",
+          "name": "Trọng lượng",
+          "value": "164g"
+        },
+        {
+          "code": "ram",
+          "name": "RAM",
+          "value": "4GB"
+        },
+        {
+          "code": "rom",
+          "name": "ROM",
+          "value": "128GB"
+        },
+        {
+          "code": "screen_size",
+          "name": "Kích thước màn hình",
+          "value": "6.1 inch"
+        },
+        {
+          "code": "wifi",
+          "name": "Wifi",
+          "value": "Wifi 6"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "categories": {
+        "id": 1789,
+        "name": "Điện Thoại - Máy Tính Bảng",
+        "is_leaf": false
+      },
+      "description": "<p>Chính hãng, Nguyên seal, Mới 100%<br />Đã kích hoạt bảo hành điện tử 6060, nguyên seal chưa khui<br />Miễn phí giao hàng toàn quốc<br />SIM Nano-SIM, hỗ trợ 4G<br />Loại Màn hình cảm ứng IPS LCD<br />Kích thước: 8.7 inche<br />Độ phân giải: FullHD 1200 x 2000 Pixels, ratio 5:3, 224 ppi<br />Chipset (hãng SX CPU): Mediatek MT6762 Helio P22T - Accurate manufacturing (12nm)<br />Bộ xử lý (CPU): Octa-core (4x2.3GHz Cortex-A53 &amp; 4x1.8GHz Cortex-A53)<br />GPU: PowerVR GE8320<br />Bộ nhớ trong: 32 GB, 3 GB RAM, microSDXC (dedicated) slot<br />Camera sau: 8 MP<br />Camera trước: 5 MP<br />Pin: Lithium - Ion 5100mAh<br />Khe cắm thẻ nhớ: microSD, lên đến 1TB<br />Hệ điều hành: Android 11</p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/21/7c/5c/db500afb59285e6d41869b1136b6bfb2.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/21/7c/5c/db500afb59285e6d41869b1136b6bfb2.jpg\" alt=\"\" width=\"750\" height=\"750\" /></p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/25/9e/68/12449a2afbfdbbd6fd5ae96681fb2bf5.png\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/25/9e/68/12449a2afbfdbbd6fd5ae96681fb2bf5.png\" alt=\"\" width=\"undefined\" height=\"undefined\" /></p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/e8/51/b3/54060552f6aafb24fba624b377d25993.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/e8/51/b3/54060552f6aafb24fba624b377d25993.jpg\" alt=\"\" width=\"750\" height=\"750\" /></p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/9d/f5/9c/4e0d32a809fd3b6a80a05168ad2b9521.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/9d/f5/9c/4e0d32a809fd3b6a80a05168ad2b9521.jpg\" alt=\"\" width=\"750\" height=\"750\" /></p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/9d/f5/9c/9562d0a2648c54e9648b392beda9334c.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/9d/f5/9c/9562d0a2648c54e9648b392beda9334c.jpg\" alt=\"\" width=\"750\" height=\"750\" /></p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/35/58/7b/97ab16548063a9222df9403858b08d3d.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/35/58/7b/97ab16548063a9222df9403858b08d3d.jpg\" alt=\"\" width=\"750\" height=\"750\" /></p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/ts/product/db/6c/6d/656872c0e24cf16bb6dd85b3bf68c476.jpg",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/db/6c/6d/656872c0e24cf16bb6dd85b3bf68c476.jpg",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/db/6c/6d/656872c0e24cf16bb6dd85b3bf68c476.jpg",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/db/6c/6d/656872c0e24cf16bb6dd85b3bf68c476.jpg",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/db/6c/6d/656872c0e24cf16bb6dd85b3bf68c476.jpg"
+      },
+      "name": "Máy tính bảng Samsung Galaxy Tab A7 Lite LTE SM-T225 - Hàng Chính Hãng",
+      "sale_price": 3609000,
+      "original_price": 4490000,
+      "quantity_sold": {
+        "text": "Đã bán 52",
+        "value": 52
+      },
+      "rating": 5,
+      "short_description": "Chính hãng, Nguyên seal, Mới 100%Đã kích hoạt bảo hành điện tử 6060, nguyên seal chưa khuiMiễn phí giao hàng toàn quốcSIM Nano-SIM, hỗ trợ 4GLoại Màn hình cảm ứng IPS LCDKích thước: 8.7 incheĐộ phân g...",
+      "specifications": [
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": "Samsung"
+        },
+        {
+          "code": "brand_country",
+          "name": "Xuất xứ thương hiệu",
+          "value": "Hàn Quốc"
+        },
+        {
+          "code": "included_accessories",
+          "name": "Phụ kiện đi kèm",
+          "value": "<p>Thân máy, cáp sạc Type C, chọc sim, sách hướng dẫn</p>"
+        },
+        {
+          "code": "item_model_number",
+          "name": "Model",
+          "value": "SM-T225"
+        },
+        {
+          "code": "kha_dung",
+          "name": "Bộ nhớ khả dụng",
+          "value": "32GB"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "categories": {
+        "id": 28856,
+        "name": "Máy đọc sách",
+        "is_leaf": true
+      },
+      "description": "<div class=\"intro-text\">\n<p><em><strong>Amazon vừa chính thức ra mắt thế hệ tiếp theo của dòng máy đọc sách Kindle Paperwhite.</strong></em></p>\n</div>\n<p><strong>Kindle Paperwhite 5</strong> (hay <em><strong>Kindle Paperwhite 11th Gen</strong></em>) là phiên bản thay thế cho chiếc Kindle Paperwhite 4 đã ra mắt từ năm 2018. Thường thì sau mỗi 2-3 năm thì Amazon mới nâng cấp sản phẩm Kindle một lần và đợt nâng cấp này có thể nói là sự nâng cấp lớn nhất từ trước đến nay với dòng máy Kindle Paperwhite.</p>\n<p><img src=\"https://salt.tikicdn.com/ts/tmp/13/53/56/da85b12e437ce2856543541172fe16c0.jpeg\" alt=\"\" width=\"750\" height=\"763\" /></p>\n<p><strong>Kindle Paperwhite 5</strong> có tất cả 3 phiên bản: bản <strong>Chuẩn (Paperwhite)</strong>, bản <strong>Đặc Biệt (Paperwhite Signature Edition)</strong> và phiên bản <strong>Trẻ em (Papewhite Kids)</strong>. Hiện tại máy chỉ có màu đen.</p>\n<p><img src=\"https://salt.tikicdn.com/ts/tmp/86/8f/ce/d304c6ef4044ab9d913158cf823996d0.jpg\" alt=\"\" width=\"750\" height=\"412\" /></p>\n<p>Cụ thể thì <strong>Kindle Paperwhite bản chuẩn</strong> sẽ có giá là 140 USD, sở hữu màn hình 6.8 inch, lớn hơn so với màn 6 inch của thế hệ trước và viền màn hình cũng được làm mỏng hơn. Máy có bộ nhớ 8GB và được giới thiệu là có tốc độ chuyển trang nhanh hơn 20% so với trước. Amazon nói rằng máy có thời lượng pin lên tới 10 tuần cho một lần sạc. Kindle Paperwhite 5 sẽ là chiếc Kindle đầu tiên được trang bị kết nối USB Type-C, một điểm mà rất nhiều người mong đợi. Cũng giống như phiên bản trước, Kindle Paperwhite 5 chống nước theo chuẩn IPX8.</p>\n<p><img src=\"https://salt.tikicdn.com/ts/tmp/42/e6/71/79c80f959a31431398ea56305822a400.jpg\" alt=\"\" width=\"750\" height=\"279\" /></p>\n<p>Cuối cùng, tính năng nổi bật nhất, Paperwhite 5 đã được trang bị hệ thống đèn nền kép với 2 tông màu Ấm/Lạnh, tương tự như trên mẫu máy cao cấp Kindle Oasis 3. Tính năng này giúp bạn có thể chỉnh đèn từ màu trắng sang vàng để dịu mắt hơn khi đọc vào ban đêm.</p>\n<p><img src=\"https://salt.tikicdn.com/ts/tmp/78/74/ce/fce9bca4a88d9a4d310182de639aeab3.png\" alt=\"\" width=\"750\" height=\"409\" /></p>\n<p><strong data-rich-text-format-boundary=\"true\">Kindle Paperwhite Signature Edition</strong> là phiên bản Đặc biệt, được bán với giá 189.99 USD. Máy có các tính năng và ngoại hình giống như bản chuẩn nhưng bộ nhớ được nâng lên 32GB thay vì 8GB. Ngoài ra phiên bản Signature là thiết bị đầu tiên hỗ trợ sạc không dây (chuẩn Qi) giúp bạn sạc máy dễ dàng hơn nếu đã sở hữu một cục sạc không dây trong nhà. Phiên bản Đặc biệt này cũng có cảm biến ánh sáng để có thể điều chỉnh độ sáng đèn nền một cách tự động</p>\n<p><img src=\"https://salt.tikicdn.com/ts/tmp/f2/e4/c0/737e999bb02090678db6b97fcab29de1.jpeg\" alt=\"\" width=\"750\" height=\"421\" /></p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/ts/product/43/dd/97/75d04cd242f6d891fd867fa7a599c70d.jpg",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/43/dd/97/75d04cd242f6d891fd867fa7a599c70d.jpg",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/43/dd/97/75d04cd242f6d891fd867fa7a599c70d.jpg",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/43/dd/97/75d04cd242f6d891fd867fa7a599c70d.jpg",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/43/dd/97/75d04cd242f6d891fd867fa7a599c70d.jpg"
+      },
+      "name": "Máy đọc sách All New Kindle Paperwhite 5 (11th Gen) - Hàng nhập khẩu",
+      "sale_price": 3648500,
+      "original_price": 3830000,
+      "quantity_sold": {
+        "text": "Đã bán 64",
+        "value": 64
+      },
+      "rating": 5,
+      "short_description": "Amazon vừa chính thức ra mắt thế hệ tiếp theo của dòng máy đọc sách Kindle Paperwhite.Kindle Paperwhite 5 (hay Kindle Paperwhite 11th Gen) là phiên bản thay thế cho chiếc Kindle Paperwhite 4 đã ra ...",
+      "specifications": [
+        {
+          "code": "battery_life",
+          "name": "Thời gian pin",
+          "value": "Một lần sạc kéo dài đến mười (10) tuần, dựa trên nửa giờ đọc mỗi ngày khi tắt không dây và cài đặt ánh sáng ở mức 13. Tuổi thọ pin có thể thay đổi tùy theo mục đích sử dụng. Phát trực tuyến sách nói có âm thanh qua Bluetooth sẽ làm giảm thời lượng pin."
+        },
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": "Kindle"
+        },
+        {
+          "code": "charge_time",
+          "name": "Thời gian sạc",
+          "value": "Sạc đầy trong khoảng 5 giờ từ máy tính qua cáp USB; Sạc đầy trong vòng chưa đầy 2,5 giờ với bộ đổi nguồn USB 9W."
+        },
+        {
+          "code": "content_formats_supported",
+          "name": "Hỗ trợ định dạng",
+          "value": "Kindle Format 8 (AZW3), Kindle (AZW), TXT, PDF, unprotected MOBI, PRC natively; HTML DOC, DOCX, JPEG, GIF, PNG, PMP through conversion; Audible audio format (AAX)."
+        },
+        {
+          "code": "display_type",
+          "name": "Loại/ Công nghệ màn hình",
+          "value": "E-ink"
+        },
+        {
+          "code": "dung_luong_dientu",
+          "name": "Dung lượng ổ cứng",
+          "value": "8Gb"
+        },
+        {
+          "code": "included_accessories",
+          "name": "Phụ kiện đi kèm",
+          "value": "<p>Máy All New Kindle Paperwhite 5 + Cáp sạc + Giới thiệu</p>"
+        },
+        {
+          "code": "manufacturer_electronics",
+          "name": "Nhà sản xuất",
+          "value": "Amazon"
+        },
+        {
+          "code": "origin",
+          "name": "Xuất xứ",
+          "value": "Mỹ"
+        },
+        {
+          "code": "product_weight",
+          "name": "Trọng lượng",
+          "value": "205g"
+        },
+        {
+          "code": "resolution",
+          "name": "Độ phân giải",
+          "value": "300 PPI"
+        },
+        {
+          "code": "usb_port",
+          "name": "Cổng USB",
+          "value": "USB-C"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "categories": {
+        "id": 1795,
+        "name": "Điện thoại Smartphone",
+        "is_leaf": true
+      },
+      "description": "<div class=\"html-content pdp-product-highlights\">\n<p> </p>\n<ul class=\"\">\n<li class=\"\" data-spm-anchor-id=\"a2o4n.pdp_revamp.product_detail.i2.66592b3aAL8Fzh\">Vi xử lý MediaTek Dimensity 700 hỗ trợ 5G.</li>\n<li class=\"\" data-spm-anchor-id=\"a2o4n.pdp_revamp.product_detail.i5.66592b3aAL8Fzh\">Màn hình Full HD+ DotDisplay 90Hz, độ phân giải 2400 x 1080.</li>\n<li class=\"\">DynamicSwitch Display</li>\n<li class=\"\">RAM: 6GB, ROM: 128GB</li>\n<li class=\"\">Kính cường lực mặt trước Corning Gorilla Glass 3.</li>\n<li class=\"\" data-spm-anchor-id=\"a2o4n.pdp_revamp.product_detail.i3.66592b3aAL8Fzh\">Dung lượng pin 5,000mAH - sạc nhanh 18W. Tặng kèm củ sạc 22.5W.</li>\n<li class=\"\" data-spm-anchor-id=\"a2o4n.pdp_revamp.product_detail.i1.66592b3aAL8Fzh\">Bộ 3 Camera sau AI 48MP.</li>\n<li class=\"\" data-spm-anchor-id=\"a2o4n.pdp_revamp.product_detail.i0.66592b3aAL8Fzh\">Camera trước 8MP.</li>\n<li class=\"\">Tích hợp NFC</li>\n<li class=\"\" data-spm-anchor-id=\"a2o4n.pdp_revamp.product_detail.i4.66592b3aAL8Fzh\">Mở khoá gượng mặt AI - Cảm biến vân tay cạnh bên.</li>\n</ul>\n</div>\n<div id=\"detail_decorate_root\">\n<div id=\"_root\" class=\"engine-app\">\n<div id=\"Root\" class=\"com-struct\">\n<div id=\"hd\" class=\"com-struct\">\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/20/e4/50/6fe2722bd3a88f97bbb582c4f2d92e07.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/20/e4/50/6fe2722bd3a88f97bbb582c4f2d92e07.jpg\" alt=\"\" width=\"750\" height=\"1215\" /></p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/81/21/2d/35f6f1f2eadf36e49a928a1cdee0b8de.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/81/21/2d/35f6f1f2eadf36e49a928a1cdee0b8de.jpg\" alt=\"\" width=\"750\" height=\"680\" /></p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/37/0a/6f/a430eb6063d410a7ea4ad760bc8fd216.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/37/0a/6f/a430eb6063d410a7ea4ad760bc8fd216.jpg\" alt=\"\" width=\"750\" height=\"781\" /></p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/49/3f/18/bcc684923ee728c8df2dbe3e0020b7bc.webp\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/49/3f/18/bcc684923ee728c8df2dbe3e0020b7bc.webp\" alt=\"\" width=\"750\" height=\"776\" /></p>\n</div>\n</div>\n</div>\n</div><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/ts/product/58/30/9a/e74d0f77b9b0fd698d08841f58de8223.jpg",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/58/30/9a/e74d0f77b9b0fd698d08841f58de8223.jpg",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/58/30/9a/e74d0f77b9b0fd698d08841f58de8223.jpg",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/58/30/9a/e74d0f77b9b0fd698d08841f58de8223.jpg",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/58/30/9a/e74d0f77b9b0fd698d08841f58de8223.jpg"
+      },
+      "name": "Điện thoại POCO M3 Pro 5G (6GB/128GB) - Hàng chính hãng",
+      "sale_price": 4990000,
+      "original_price": 4990000,
+      "quantity_sold": {
+        "text": "Đã bán 817",
+        "value": 817
+      },
+      "rating": 4.7,
+      "short_description": " Vi xử lý MediaTek Dimensity 700 hỗ trợ 5G.Màn hình Full HD+ DotDisplay 90Hz, độ phân giải 2400 x 1080.DynamicSwitch DisplayRAM: 6GB, ROM: 128GBKính cường lực mặt trước Corning Gorilla Glass 3....",
+      "specifications": [
+        {
+          "code": "battery_capacity",
+          "name": "Dung lượng pin",
+          "value": "5000 mAh"
+        },
+        {
+          "code": "bluetooth",
+          "name": "Bluetooth",
+          "value": "Bluetooth 5.1"
+        },
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": "Xiaomi"
+        },
+        {
+          "code": "camera_sau",
+          "name": "Camera sau",
+          "value": "Bộ 3 Camera sau AI 48MP."
+        },
+        {
+          "code": "camera_truoc",
+          "name": "Camera trước",
+          "value": "Camera trước 8MP."
+        },
+        {
+          "code": "cart_slot",
+          "name": "Hỗ trợ thẻ nhớ ngoài",
+          "value": "có"
+        },
+        {
+          "code": "chip_do_hoa",
+          "name": "Chip đồ họa (GPU)",
+          "value": "Arm Mali-G57 MC2, Tần số GPU tối đa: 950MHz"
+        },
+        {
+          "code": "chip_set",
+          "name": "Chip set",
+          "value": "MediaTek Dimensity 700"
+        },
+        {
+          "code": "chuc_nang_khac",
+          "name": "Chức năng khác",
+          "value": " Sạc pin nhanh"
+        },
+        {
+          "code": "connect_nfc",
+          "name": "NFC",
+          "value": "Có"
+        },
+        {
+          "code": "cpu_speed",
+          "name": "Tốc độ CPU",
+          "value": "CPU tám lõi, lên đến 2,2 GHz"
+        },
+        {
+          "code": "den_flash",
+          "name": "Đèn Flash",
+          "value": "Có"
+        },
+        {
+          "code": "display_type",
+          "name": "Loại/ Công nghệ màn hình",
+          "value": "IPS LCD"
+        },
+        {
+          "code": "fm_radio",
+          "name": "FM radio",
+          "value": "Không"
+        },
+        {
+          "code": "ghi_am",
+          "name": "Ghi âm",
+          "value": "Có"
+        },
+        {
+          "code": "gps",
+          "name": "GPS",
+          "value": "A-GPS  BDS  GALILEO  GLONASS"
+        },
+        {
+          "code": "included_accessories",
+          "name": "Phụ kiện đi kèm",
+          "value": "<p>Thiết bị | Bộ sạc | Cáp USB Type-C | Dụng cụ tháo SIM | Ốp bảo vệ | Hướng dẫn sử dụng nhanh | Thẻ bảo hành</p>"
+        },
+        {
+          "code": "jack_headphone",
+          "name": "Jack tai nghe",
+          "value": "3,5 mm"
+        },
+        {
+          "code": "khe_sim",
+          "name": "Số sim",
+          "value": "2"
+        },
+        {
+          "code": "loai_pin",
+          "name": "Loại pin",
+          "value": " Li-Po"
+        },
+        {
+          "code": "loai_sim",
+          "name": "Loại Sim",
+          "value": " 2 Nano SIM"
+        },
+        {
+          "code": "port_sac",
+          "name": "Cổng sạc",
+          "value": "Type - C"
+        },
+        {
+          "code": "product_weight",
+          "name": "Trọng lượng",
+          "value": "190g"
+        },
+        {
+          "code": "quay_phim",
+          "name": "Quay phim",
+          "value": " 4K 2160p@30fps  FullHD 1080p@120fps  FullHD 1080p@30fps  FullHD 1080p@60fps"
+        },
+        {
+          "code": "resolution",
+          "name": "Độ phân giải",
+          "value": "Full HD+ (1080 x 2400 Pixels)"
+        },
+        {
+          "code": "screen_size",
+          "name": "Kích thước màn hình",
+          "value": "6.5 inch"
+        },
+        {
+          "code": "tinh_nang_camera",
+          "name": "Tính năng camera",
+          "value": "Bộ 3 Camera sau AI 48MP. Camera trước 8MP."
+        },
+        {
+          "code": "video_call",
+          "name": "Video call",
+          "value": "Có"
+        },
+        {
+          "code": "wifi",
+          "name": "Wifi",
+          "value": "Wi-Fi 2,4GHz/5GHz"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "categories": {
+        "id": 1795,
+        "name": "Điện thoại Smartphone",
+        "is_leaf": true
+      },
+      "description": "<p>Thông số kỹ thuật:</p>\n<p>Màn hình: AMOLED, 6.4\", Full HD+</p>\n<p>Hệ điều hành: Android 11</p>\n<p>Bộ xử lý: Qualcomm Snapdragon 680, tối đa 2.4GHz</p>\n<p>GPU: Adreno 610</p>\n<p>RAM: 8GB</p>\n<p>Bộ nhớ/ROM: 256GB</p>\n<p>Hỗ trợ thẻ nhớ tối đa 1TB</p>\n<p>Pin:4500mAh (Typ)</p>\n<p>Sạc: Siêu Sạc nhanh Super VOOC 33W</p>\n<p> </p>\n<p>Camera trước: 32MP</p>\n<p>Đèn flash trước:Không</p>\n<p>Camera sau: 64MP (Chính) + 2MP (Góc rộng) + 2MP (Marco)</p>\n<p>Đèn flash sau: Có</p>\n<p> </p>\n<p>Tính năng khác:</p>\n<p>Cảm biến Cảm biến vân tay (dưới màn hình)</p>\n<p>Cảm biến tiệm cận</p>\n<p>Cảm biến ánh sáng</p>\n<p>Cảm biến gia tốc kế</p>\n<p>La bàn số</p>\n<p> </p>\n<p>Bên trong hộp:</p>\n<p>-OPPO RENO7 4G</p>\n<p>- Cáp USB Type C</p>\n<p>- Củ sạc Super VOOC 33W</p>\n<p>- Không tai nghe</p>\n<p>- Dụng cụ lấy SIM</p>\n<p>- Sách hướng dẫn</p>\n<p>- Miếng dán màn hình (Đã dán sẵn)</p>\n<p>- Vỏ bảo vệ<br />#oppo #reno74g #4g #dienthoaioppo #dienthoaiopporeno74g</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/ts/product/cf/67/9f/9a007ae3c9aa3d73bb7d297883c1d4ce.png",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/cf/67/9f/9a007ae3c9aa3d73bb7d297883c1d4ce.png",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/cf/67/9f/9a007ae3c9aa3d73bb7d297883c1d4ce.png",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/cf/67/9f/9a007ae3c9aa3d73bb7d297883c1d4ce.png",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/cf/67/9f/9a007ae3c9aa3d73bb7d297883c1d4ce.png"
+      },
+      "name": "Điện Thoại OPPO RENO7 4G (8GB/128GB) - Hàng Chính Hãng",
+      "sale_price": 7290000,
+      "original_price": 8990000,
+      "rating": 0,
+      "short_description": "Thông số kỹ thuật:Màn hình: AMOLED, 6.4\", Full HD+Hệ điều hành: Android 11Bộ xử lý: Qualcomm Snapdragon 680, tối đa 2.4GHzGPU: Adreno 610RAM: 8GBBộ nhớ/ROM: 256GBHỗ trợ thẻ nhớ tối đa 1TBPin:4...",
+      "specifications": [
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": "OPPO"
+        },
+        {
+          "code": "dimensions",
+          "name": "Kích thước",
+          "value": "<div>159.9 x 73.2 x 7.54 mm</div>"
+        },
+        {
+          "code": "item_model_number",
+          "name": "Model",
+          "value": "OPPO RENO7 4G"
+        },
+        {
+          "code": "khe_sim",
+          "name": "Số sim",
+          "value": "2 "
+        }
+      ],
+      "id": 5
+    },
+    {
+      "categories": {
+        "id": 8400,
+        "name": "Tai Nghe True Wireless",
+        "is_leaf": true
+      },
+      "description": "<p style=\"text-align: center;\"><strong><iframe src=\"//www.youtube.com/embed/yLcBBctVC1o\" width=\"750\" height=\"421\" allowfullscreen=\"allowfullscreen\"></iframe></strong></p>\n<p> </p>\n<p><strong>ĐẶC ĐIỂM NỔI BẬT</strong></p>\n<ol>\n<li style=\"text-align: justify;\"> Qualcomm 3040 &amp; Bluetooth 5.2, Game Mode; Một chipset bluetooth mới được phát hành có Công nghệ phản chiếu không dây TrueWireless đột phá, tối thiểu độ trễ &amp; giữ mức tiêu thụ điện năng mức thấp nhất và kết nối ổn định đường truyền nhanh hơn.</li>\n<li style=\"text-align: justify;\">Trình điều khiển cảm ứng cân bằng Knowles, một trình điều khiển động tùy chỉnh và một bộ phân tần được mã hóa thành DNA để tái tạo âm thanh chân thực, dễ cảm nhận hơn.</li>\n<li style=\"text-align: justify;\">TWS Mirroring &amp; cVc; Phản chiếu âm thanh chuyển đội liền mạch và linh hoạt từ 2 bên tai &amp; Công nghệ giảm tiếng ồn cVC không sợ bị nhiễu với các cuộc gọi độ nét cao.</li>\n<li style=\"text-align: justify;\">Hỗ trợ codec thích ứng Aptx; Nghe âm nhạc trở nên sống động khi cộng hưởng độ sâu trong âm trầm. Âm trầm mạnh mẽ, mức độ âm thanh khác biệt và tần số thấp tăng và mạnh mẽ nó rung lên một cách vô thức.</li>\n<li style=\"text-align: justify;\">35 Hours Playtime; Thời gian làm việc 15 giờ cho mỗi lần sạc, khoảng 2.5 lần sạc đầy bằng hộp sạc, tổng thời gian chơi là 35 giờ.</li>\n</ol>\n<h2 style=\"text-align: justify;\"><strong>Tai nghe bluetooth SoundPEATS H1 phiên bản âm thanh tốt nhất trong phân khúc.</strong></h2>\n<p style=\"text-align: justify;\"><strong>Tai nghe bluetooth SoundPEATS H1 chính thức trình làng tiêu biểu với chip âm thanh Qualcomm Snapdragon QCC3040, chế độ Game Mode cải tiến, giao thức kết nối aptX-Adaptive và thời lượng pin dài 35h. Đây chính là siêu phẩm mà SOUNDPEATS đặc biệt tự tin ở chất âm tốt nhất trong tầm giá.</strong></p>\n<h3 style=\"text-align: justify;\"><strong>SoundPEATS H1 trải nghiệm âm thanh sống động với chất âm hoàn hảo</strong></h3>\n<p> </p>\n<figure id=\"attachment_2690\" class=\"wp-caption aligncenter\" aria-describedby=\"caption-attachment-2690\"><img class=\"wp-image-2690 size-full\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://salt.tikicdn.com/cache/w750/ts/product/a1/1a/01/983d5eaeaffa68369987d57b9d4dbdfe.jpg\" sizes=\"(max-width: 1200px) 100vw, 1200px\" srcset=\"https://salt.tikicdn.com/cache/w750/ts/product/a1/1a/01/983d5eaeaffa68369987d57b9d4dbdfe.jpg 1200w, https://salt.tikicdn.com/cache/w750/ts/product/3e/42/90/391a4889016e2eea875089db5201c4af.jpg 751w, https://salt.tikicdn.com/cache/w750/ts/product/ff/3b/1a/058ad29e2a3a3aab5465a71fc412ea81.jpg 768w, https://salt.tikicdn.com/ts/product/95/c0/45/245044668a5fcac24145ef171381cc50.jpg 600w\" alt=\"Tai nnghe bluetooth SoundPEATS H1 với những hiệu năng tốt nhất\" width=\"750\" height=\"399\" />\n<figcaption id=\"caption-attachment-2690\" class=\"wp-caption-text\"></figcaption>\n</figure>\n<p style=\"text-align: justify;\"> </p>\n<p style=\"text-align: justify;\">Một lần nữa SOUNDPEATS không làm chúng ta thất vọng với siêu phẩm mang tên SoundPEATS H1, không ngẫu nhiên khi thiết bị có tên “H” với phiên bản Seri 1. Bởi lẽ chính công nghệ Hybrid Driver đã mang đến sự khác biệt rõ nét trong chất âm của sản phẩm.</p>\n<h3 style=\"text-align: justify;\">Chất lượng âm thanh và chế độ kết nối</h3>\n<p style=\"text-align: justify;\">Trước khi nói về chất lượng âm thanh của sóng âm thì phải nói đến chế độ kết nối. Giao thức SBC đã dần bị tai nghe bluetooth loại bỏ, một số loa bluetooth vẫn đang sử dụng giao thức này.</p>\n<p style=\"text-align: justify;\">Còn đối với aAptX và aptX HD là các giao thức có khối lượng dữ liệu và tốc độ truyền tốt hơn do Qualcomm giới thiệu, trong đó HD có yêu cầu cao hơn về khả năng truyền tải của thiết bị Nghĩa là, ngay cả khi thiết bị hỗ trợ giao thức này nó không thể trải nghiệm hiệu ứng thực sự do không đủ khả năng đầu ra. Do đó, Qualcomm đã ra mắt giao thức mới Form-AptX Adaptive trong những năm gần đây và dĩ nhiên nó được tích hợp trên Tai nghe không dây SoundPEATS H1.</p>\n<p style=\"text-align: justify;\"> </p>\n<p style=\"text-align: justify;\"> </p>\n<figure id=\"attachment_2691\" class=\"wp-caption aligncenter\" aria-describedby=\"caption-attachment-2691\"><img class=\"wp-image-2691 size-full\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://salt.tikicdn.com/cache/w750/ts/product/42/33/1c/814ed37a664fe1d6e18a534d41e0fc62.jpg\" sizes=\"(max-width: 1200px) 100vw, 1200px\" srcset=\"https://salt.tikicdn.com/cache/w750/ts/product/42/33/1c/814ed37a664fe1d6e18a534d41e0fc62.jpg 1200w, https://salt.tikicdn.com/cache/w750/ts/product/c7/8c/0f/104be7ee1eecea925f0f850f75c7349b.jpg 800w, https://salt.tikicdn.com/cache/w750/ts/product/c2/0b/52/f4f18b49f9c2023f00293e3cff7a5005.jpg 768w, https://salt.tikicdn.com/ts/product/a4/68/77/70dfa7c18a6eb1ba6e5ebf7b0dc6a5bc.jpg 600w\" alt=\"Tai nghe không dây SoundPEATS H1 mới nhất\" width=\"750\" height=\"370\" />\n<figcaption id=\"caption-attachment-2691\" class=\"wp-caption-text\"><br /><br /></figcaption>\n</figure>\n<p style=\"text-align: justify;\">Tai nghe SoundPEATS H1 được trang bị chip QCC3040 mới nhất của Qualcomm dành cho các thiết bị âm thanh, hỗ trợ công nghệ thích ứng aptX cân bằng. Đặc biệt, H1 có hỗ trợ của Hybrid Driver (màng loa hỗn hợp), mang đến chất lượng âm thanh tổng thể tốt hơn. Chế độ Game Mode chính là tính năng được SoundPEATS cải tiến cho sản phẩm Tai nghe SoundPEATS H1 lần này, với khả năng giảm độ trễ lên đến 40 mili giây dường nhưng không có độ trễ.</p>\n<p style=\"text-align: justify;\">Hybrid Driver màn loa kết hợp cùng khả năng phân tần tần số từ cao đến thấp một cách tốt hơn, giúp trải nghiệm không gian âm nhạc cụ thể và chân thực hơn. Ngoài ra, dưới sự hiện diện của Hybrid Drivers &amp; Exclusive Crossover – Trình điều khiển hỗn hợp và Bộ phân tần độc quyền; Bộ phân tần độc quyền chia tín hiệu âm thanh ở các tần số khác nhau và phân phối chúng riêng biệt, cùng với Codec AptX bởi chip QCC3040 mới nhất tối ưu hóa việc truyền và xử lý âm thanh tốt nhất.</p>\n<p style=\"text-align: justify;\"> </p>\n<figure id=\"attachment_2693\" class=\"wp-caption aligncenter\" aria-describedby=\"caption-attachment-2693\"><img class=\"wp-image-2693 size-full\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://salt.tikicdn.com/cache/w750/ts/product/11/9e/45/f3ebabbd7003051e33cb0cefae1862b1.jpg\" sizes=\"(max-width: 1200px) 100vw, 1200px\" srcset=\"https://salt.tikicdn.com/cache/w750/ts/product/11/9e/45/f3ebabbd7003051e33cb0cefae1862b1.jpg 1200w, https://salt.tikicdn.com/ts/product/49/b5/ee/3580b7be7fe72bc622d161982e495008.jpg 748w, https://salt.tikicdn.com/cache/w750/ts/product/46/39/9d/120e00f9694bedd1c31ec79d3c291ac5.jpg 768w, https://salt.tikicdn.com/ts/product/a5/92/d6/aacedc69339618073df188d6cad33357.jpg 600w\" alt=\"Tai nghe không dây soundpeats h1 sẽ là siêu phẩm âm thanh trong năm 2021\" width=\"750\" height=\"401\" />\n<figcaption id=\"caption-attachment-2693\" class=\"wp-caption-text\"></figcaption>\n</figure>\n<p style=\"text-align: justify;\"> </p>\n<p style=\"text-align: justify;\">Trải nghiệm âm nhạc trở nên sống động được xử lý bởi trình điều khiển động 8.6mm tái tạo một cách rõ ràng các chi tiết âm thành ở âm tần trung và độ sâu cộng hưởng trong âm trầm.<br />Bộ phân giải âm thanh cải tiến mang đến chất âm thực hơn.</p>\n<p style=\"text-align: justify;\">Trình điều khiển cảm ứng cân bằng Knowles, một trình điều khiển động tùy chỉnh và một bộ phân tần được mã hóa thành DNA để tái tạo âm thanh chân thực, dễ cảm nhận hơn. Có thể thấy, Tai nghe SoundPEATS H1 mang đến chất lượng âm thanh cân bằng, tốc độ đường truyền nhanh chóng, khả năng xử lý âm thanh hiệu suất cao và cực kỳ ổn định.</p>\n<p style=\"text-align: justify;\"> </p>\n<figure id=\"attachment_2694\" class=\"wp-caption aligncenter\" aria-describedby=\"caption-attachment-2694\"><img class=\"wp-image-2694 size-full\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://salt.tikicdn.com/cache/w750/ts/product/b9/c7/67/6ea6029e6a2c04c327c1228ddef0582e.jpg\" sizes=\"(max-width: 1649px) 100vw, 1649px\" srcset=\"https://salt.tikicdn.com/cache/w750/ts/product/b9/c7/67/6ea6029e6a2c04c327c1228ddef0582e.jpg 1649w, https://salt.tikicdn.com/ts/product/f8/f2/eb/4b933555c20673526c5e8260aae8363f.jpg 724w, https://salt.tikicdn.com/cache/w750/ts/product/67/55/3f/9b670963d0b6e94a3e2b8b173725ed3b.jpg 1400w, https://salt.tikicdn.com/cache/w750/ts/product/1c/de/89/3fbcd7873015182baf31ea219a693ef3.jpg 768w, https://salt.tikicdn.com/cache/w750/ts/product/0a/02/6e/d394655b90bf1bf35b746b2c8c2d8a53.jpg 1536w, https://salt.tikicdn.com/ts/product/76/cc/b6/c3e261e9b8dfd65fb7817314c782734c.jpg 600w\" alt=\"Tai nghe không dây SoundPEATS H1 với trình xử lý âm thanh công nghệ cao\" width=\"750\" height=\"414\" />\n<figcaption id=\"caption-attachment-2694\" class=\"wp-caption-text\"><br /><br /></figcaption>\n</figure>\n<p style=\"text-align: justify;\"><strong>Công nghệ TWS Mirroring thế hệ mới chuyển đổi âm thanh liền mạch và linh hoạt từ 2 bên tai.</strong></p>\n<p style=\"text-align: justify;\">Công nghệ TWS Mirroring thế hệ mới; phản chiếu âm thanh chuyển đội liền mạch và linh hoạt từ 2 bên tai, cho dù đó là cuộc gọi hay âm nhạc âm thanh sẽ không bị gián đoạn, cân bằng mức tiêu thụ điện năng và khoảng cách truyền đường âm nhất quán, cung cấp khả năng truyền tín hiệu không dây ổn định và master-slave liền mạch.</p>\n<p style=\"text-align: justify;\">Công nghệ giảm tiếng ồn cVC không sợ bị nhiễu với các cuộc gọi độ nét cao; khả năng phân tách giọng người lẫn với âm thanh ồn ào tốt, giảm tiếng ồn cuộc gọi cVc tích hợp, thu nhạy âm thanh cuộc gọi, lọc chính xác tiếng ồn môi trường, cải thiện đáng kể độ rõ cuộc gọi giống như giao tiếp mặt đối mặt.</p>\n<p style=\"text-align: justify;\">Đến phần giọng âm, ngay cả ở môi trường âm thanh ồn ào thì âm thanh nhận diện rất đáng ngạc nhiên. Cùng công nghệ tăng cường tần số thấp Monster-bass do Soundwave thực hiện đã bổ sung rất nhiều điểm trong phần giọng âm. Mức độ âm thanh khác biệt và tần số thấp tăng và mạnh mẽ nó rung lên một cách vô thức.</p>\n<h3 style=\"text-align: justify;\">Trải nghiệm tai nghe bluetooth SoundPEATS H1</h3>\n<p style=\"text-align: justify;\">Việc tích hợp chip QCC3040 Bluetooth 5.2, sóng âm giảm độ trễ xuống còn 65 mili giây, kết nối ổn định hơn (tốc độ đường truyền cao hơn 1.5 lần) và tiêu thụ điện năng thấp hơn 40%, điều này thực sự tốt cho các game thủ, sóng âm có tích hợp chế độ chơi game, ba lần bấm vào tai trái là có thể bắt đầu kích hoạt chế độ trò chơi. Theo đó, tốc độ truyền sẽ tăng gấp 3 lần, nhanh hơn một bước so với chưa kích hoạt.</p>\n<p style=\"text-align: justify;\"> </p>\n<figure id=\"attachment_2692\" class=\"wp-caption aligncenter\" aria-describedby=\"caption-attachment-2692\"><img class=\"wp-image-2692 size-full\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://salt.tikicdn.com/cache/w750/ts/product/2e/03/6c/b8ac0f1012053a4f96e053d4896ddcfa.jpg\" sizes=\"(max-width: 1047px) 100vw, 1047px\" srcset=\"https://salt.tikicdn.com/cache/w750/ts/product/2e/03/6c/b8ac0f1012053a4f96e053d4896ddcfa.jpg 1047w, https://salt.tikicdn.com/ts/product/4a/23/d2/5317fe3740070ccf11f0e4f2cff4f909.jpg 553w, https://salt.tikicdn.com/cache/w750/ts/product/0d/8d/d4/89467ef7af912d0a2f7fabc45d3f6fe0.jpg 768w, https://salt.tikicdn.com/ts/product/48/cb/5b/db5ae60badf5b73a54e7ca998c948ca0.jpg 600w\" alt=\"Tai nghe không dây SoundPEATS H1 với những tính năng mới nhất \" width=\"750\" height=\"542\" />\n<figcaption id=\"caption-attachment-2692\" class=\"wp-caption-text\"><br /><br /><br /></figcaption>\n</figure>\n<p style=\"text-align: justify;\">Bên cạnh đó, nút điều khiển đa chức năng giúp thao tác đơn giản hơn các yêu cầu; nghe nhạc, trả lời điện thoại, bật điều hướng,…</p>\n<h3 style=\"text-align: justify;\">Điều khiển bằng giọng nói và cảm ứng trực quan</h3>\n<p style=\"text-align: justify;\">Với tất cả các điều khiển trên tai nghe, bạn có thể kiểm soát mọi thứ thông qua các thao tác chạm nhẹ nhàng từ đầu ngón tay của mình. Nói “Hi Soundpeats” sẽ đánh thức trợ lý giọng nói, người sẽ trả lời ngay truy vấn của bạn hoặc thực hiện lệnh bạn yêu cầu.</p>\n<p style=\"text-align: justify;\"> </p>\n<figure id=\"attachment_2696\" class=\"wp-caption aligncenter\" aria-describedby=\"caption-attachment-2696\"><img class=\"wp-image-2696 size-full\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://salt.tikicdn.com/cache/w750/ts/product/ee/ee/0d/dc23db588eb52019f1b87a4e063c69ad.jpg\" sizes=\"(max-width: 900px) 100vw, 900px\" srcset=\"https://salt.tikicdn.com/cache/w750/ts/product/ee/ee/0d/dc23db588eb52019f1b87a4e063c69ad.jpg 900w, https://salt.tikicdn.com/ts/product/cf/cd/f1/fdea6f6205b79aea14f85ace72650eb1.jpg 600w, https://salt.tikicdn.com/cache/w750/ts/product/3e/fe/bf/32a862d31cd598687493105074156be8.jpg 768w\" alt=\"Tai nghe SoundPEATS H1 bản cải tiến nhiều tính năng mới\" width=\"750\" height=\"500\" />\n<figcaption id=\"caption-attachment-2696\" class=\"wp-caption-text\"><br /><br /></figcaption>\n</figure>\n<p style=\"text-align: justify;\">Tổng thời gian là 35h được trang bị cổng sạc Type-C giúp việc sạc pin trở nên thuận tiện hơn.</p>\n<p style=\"text-align: justify;\">Thời lượng pin là ưu tiên hàng đầu của các game thủ hay không ai muốn trải qua cảm giác bối rối khi phải sạc lại nhiều lần thiết bị. SoundPEATS đã chiến thắng với giải pháp làm cho mức tiêu thụ điện năng thấp nhất của QCC3040 và thiết kế xếp chồng cấu trúc bên trong của sóng âm làm cho tuổi thọ pin của sóng âm thanh đạt đến mức rất cao. Thời lượng pin có thể lên đến 15 giờ với ngăn sạc. Tổng thời gian là 35h được trang bị cổng sạc Type-C giúp việc sạc pin trở nên thuận tiện hơn.</p>\n<h2 style=\"text-align: justify;\"><strong>Bộ sản phẩm</strong></h2>\n<p> </p>\n<p><strong><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://salt.tikicdn.com/ts/tmp/89/63/6a/e9af8438bbee1366af760e9dc581d417.jpg\" alt=\"\" width=\"750\" height=\"605\" /></strong></p>\n<h2 style=\"text-align: justify;\"><strong>Tổng hợp</strong></h2>\n<p style=\"text-align: justify;\">Tai nghe Bluetooth SoundPEATS H1 được trang bị QCC3040, bộ giải mã AptX-Adaptive, cân bằng âm thanh bởi công nghệ Hybrid Driver, Trình điều khiển cảm ứng cân bằng Knowles, một trình điều khiển động tùy chỉnh và một bộ phân tần được mã hóa thành DNA để tái tạo âm thanh chân thực, dễ cảm nhận hơn. </p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/ts/product/b5/87/fb/246fa02d5c6117fbd9609d0a1117b317.png",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/b5/87/fb/246fa02d5c6117fbd9609d0a1117b317.png",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/b5/87/fb/246fa02d5c6117fbd9609d0a1117b317.png",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/b5/87/fb/246fa02d5c6117fbd9609d0a1117b317.png",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/b5/87/fb/246fa02d5c6117fbd9609d0a1117b317.png"
+      },
+      "name": "Tai Nghe Bluetooth Earbuds SoundPeats H1 - Hàng Chính Hãng",
+      "sale_price": 1580000,
+      "original_price": 1990000,
+      "quantity_sold": {
+        "text": "Đã bán 140",
+        "value": 140
+      },
+      "rating": 4.5,
+      "short_description": " ĐẶC ĐIỂM NỔI BẬT Qualcomm 3040 & Bluetooth 5.2, Game Mode; Một chipset bluetooth mới được phát hành có Công nghệ phản chiếu không dây TrueWireless đột phá, tối thiểu độ trễ & giữ mức tiêu...",
+      "specifications": [
+        {
+          "code": "ho_tro_dam_thoai",
+          "name": "Hỗ trợ đàm thoại",
+          "value": "Có"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "categories": {
+        "id": 1795,
+        "name": "Điện thoại Smartphone",
+        "is_leaf": true
+      },
+      "description": "<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://salt.tikicdn.com/ts/tmp/03/d7/e0/80aeac6a472e54a42ee7e5c1831e8b91.jpg\" alt=\"\" width=\"750\" height=\"884\" /></p>\n<p style=\"text-align: center;\"><img src=\"https://salt.tikicdn.com/ts/tmp/34/47/1c/022e0ad2a390d7483af2a6e7c4d28ef4.jpg\" alt=\"\" width=\"750\" height=\"3546\" /></p>\n<p style=\"text-align: center;\"><img src=\"https://salt.tikicdn.com/ts/tmp/5b/9a/1e/10ed9d4dcc3c09f2c04f801eec532603.jpg\" alt=\"\" width=\"750\" height=\"569\" /></p>\n<p style=\"text-align: center;\"><img src=\"https://salt.tikicdn.com/ts/tmp/5e/24/cb/99af16a474961a3b4ef3bd2af1bef7a8.jpg\" alt=\"\" width=\"750\" height=\"370\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/91/47/ac/4c0cacfc5c4d7a1d8212038cf1578708.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/91/47/ac/4c0cacfc5c4d7a1d8212038cf1578708.jpg\" alt=\"\" width=\"750\" height=\"485\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/39/6e/ae/b25fed5275302afcffff37c34c1a5f1e.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/39/6e/ae/b25fed5275302afcffff37c34c1a5f1e.jpg\" alt=\"\" width=\"750\" height=\"843\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/33/cd/a7/8be9ce6af485ca47cb522985a5f8981a.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/33/cd/a7/8be9ce6af485ca47cb522985a5f8981a.jpg\" alt=\"\" width=\"750\" height=\"768\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/8f/4b/99/c1e366a033d6b25f0acd5e3520795262.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/8f/4b/99/c1e366a033d6b25f0acd5e3520795262.jpg\" alt=\"\" width=\"750\" height=\"475\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/e0/8c/9b/e0ec463c6f4e98b19567cb5d3c502996.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/e0/8c/9b/e0ec463c6f4e98b19567cb5d3c502996.jpg\" alt=\"\" width=\"750\" height=\"462\" /></p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/3b/5e/c3/be5e440dcb65ff0cbe42e5405a229bcd.jpg\" style=\"display: block; margin-left: auto; margin-right: auto;\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/3b/5e/c3/be5e440dcb65ff0cbe42e5405a229bcd.jpg\" alt=\"\" width=\"750\" height=\"698\" /></p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/ts/product/98/e6/b8/657eca11baf1bc21508e46784fbb2c03.jpg",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/98/e6/b8/657eca11baf1bc21508e46784fbb2c03.jpg",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/98/e6/b8/657eca11baf1bc21508e46784fbb2c03.jpg",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/98/e6/b8/657eca11baf1bc21508e46784fbb2c03.jpg",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/98/e6/b8/657eca11baf1bc21508e46784fbb2c03.jpg"
+      },
+      "name": "Điện thoại Samsung Galaxy S22 5G (8GB/256GB) - Hàng chính hãng",
+      "sale_price": 16990000,
+      "original_price": 23490000,
+      "quantity_sold": {
+        "text": "Đã bán 91",
+        "value": 91
+      },
+      "rating": 4.7,
+      "short_description": "...",
+      "specifications": [
+        {
+          "code": "battery_capacity",
+          "name": "Dung lượng pin",
+          "value": "3700 mAh"
+        },
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": "Samsung"
+        },
+        {
+          "code": "chip_set",
+          "name": "Chip set",
+          "value": "Snapdragon 8 Gen 1 8 nhân"
+        },
+        {
+          "code": "cpu_speed",
+          "name": "Tốc độ CPU",
+          "value": "Dynamic AMOLED 2X"
+        },
+        {
+          "code": "ho_tro_5g",
+          "name": "Hỗ trợ 5G",
+          "value": "Có"
+        },
+        {
+          "code": "item_model_number",
+          "name": "Model",
+          "value": "S22"
+        },
+        {
+          "code": "jack_headphone",
+          "name": "Jack tai nghe",
+          "value": "Type C"
+        },
+        {
+          "code": "port_sac",
+          "name": "Cổng sạc",
+          "value": "Type-C"
+        },
+        {
+          "code": "ram",
+          "name": "RAM",
+          "value": "8GB"
+        },
+        {
+          "code": "resolution",
+          "name": "Độ phân giải",
+          "value": "Full HD+ (1080 x 2340 Pixels)"
+        },
+        {
+          "code": "rom",
+          "name": "ROM",
+          "value": "256GB"
+        },
+        {
+          "code": "screen_size",
+          "name": "Kích thước màn hình",
+          "value": "6.1 inch"
+        },
+        {
+          "code": "tinh_nang_camera",
+          "name": "Tính năng camera",
+          "value": "AI Camera Ban đêm (Night Mode) Chống rung quang học (OIS) Góc siêu rộng (Ultrawide) HDR Toàn cảnh (Panorama) Xóa phông Zoom kỹ thuật số Zoom quang học"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "categories": {
+        "id": 1795,
+        "name": "Điện thoại Smartphone",
+        "is_leaf": true
+      },
+      "description": "<p><img id=\"https://salt.tikicdn.com/ts/tmp/40/32/fe/b5c57a07a4698eb19eb031c46051ca36.jpg\" style=\"display: block; margin-left: auto; margin-right: auto;\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/40/32/fe/b5c57a07a4698eb19eb031c46051ca36.jpg\" alt=\"\" width=\"750\" height=\"900\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/75/48/05/a9842a4a075c75cfa525948778545e67.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/75/48/05/a9842a4a075c75cfa525948778545e67.jpg\" alt=\"\" width=\"750\" height=\"567\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/ec/53/63/79ea532f86135826a561621599a964e6.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/ec/53/63/79ea532f86135826a561621599a964e6.jpg\" alt=\"\" width=\"750\" height=\"595\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/10/b9/e1/c383eb3cc17e3f3051730a161f580363.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/10/b9/e1/c383eb3cc17e3f3051730a161f580363.jpg\" alt=\"\" width=\"750\" height=\"575\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/1d/af/84/6073645bac4150e81b227b578da3b36e.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/1d/af/84/6073645bac4150e81b227b578da3b36e.jpg\" alt=\"\" width=\"750\" height=\"650\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/45/a8/da/670b9d36310536ad0a48dd35145d9f19.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/45/a8/da/670b9d36310536ad0a48dd35145d9f19.jpg\" alt=\"\" width=\"750\" height=\"537\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/6d/6e/d0/3513bbea30513f51d079bcd175d22208.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/6d/6e/d0/3513bbea30513f51d079bcd175d22208.jpg\" alt=\"\" width=\"750\" height=\"2096\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/47/56/73/d8872653c5acf8fd756639d747aa3ef5.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/47/56/73/d8872653c5acf8fd756639d747aa3ef5.jpg\" alt=\"\" width=\"750\" height=\"759\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/7a/cc/5e/41da2c9e21a7740b461f910ebfd972fa.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/7a/cc/5e/41da2c9e21a7740b461f910ebfd972fa.jpg\" alt=\"\" width=\"750\" height=\"493\" /></p>\n<p style=\"text-align: center;\"><img id=\"https://salt.tikicdn.com/ts/tmp/db/f0/3c/4e3624e25d6e706a5177d62aeccf4ffc.jpg\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/db/f0/3c/4e3624e25d6e706a5177d62aeccf4ffc.jpg\" alt=\"\" width=\"750\" height=\"500\" /></p>\n<p><img id=\"https://salt.tikicdn.com/ts/tmp/91/e7/75/bc78f680b01d33781836076f9716a059.jpg\" style=\"display: block; margin-left: auto; margin-right: auto;\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/91/e7/75/bc78f680b01d33781836076f9716a059.jpg\" alt=\"\" width=\"750\" height=\"730\" /></p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/ts/product/e4/b1/a3/17c87d7352a5c06a301569802f1f0140.jpg",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/e4/b1/a3/17c87d7352a5c06a301569802f1f0140.jpg",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/e4/b1/a3/17c87d7352a5c06a301569802f1f0140.jpg",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/e4/b1/a3/17c87d7352a5c06a301569802f1f0140.jpg",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/e4/b1/a3/17c87d7352a5c06a301569802f1f0140.jpg"
+      },
+      "name": "Điện thoại Samsung Galaxy S22 Ultra 5G (8GB/128GB) - Hàng Chính Hãng",
+      "sale_price": 23690000,
+      "original_price": 30990000,
+      "quantity_sold": {
+        "text": "Đã bán 26",
+        "value": 26
+      },
+      "rating": 4,
+      "short_description": "...",
+      "specifications": [
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": "Samsung"
+        },
+        {
+          "code": "item_model_number",
+          "name": "Model",
+          "value": "S22 Ultra"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "categories": {
+        "id": 2458,
+        "name": "Macbook",
+        "is_leaf": true
+      },
+      "description": "<h3>Tiêu đề</h3>\n<p>Sức mạnh để tiến xa hơn trong học tập.</p>\n<p>MacBook Pro. Nay có chip Apple M1.</p>\n<p>MacBook Pro. Sức mạnh cho học tập.</p>\n<p>Tiếp thêm sức mạnh cho sinh viên.</p>\n<h3>Nội dung quảng cáo</h3>\n<p>MacBook Pro 13 inch siêu mạnh mẽ với chip Apple M1, mang đến cho bạn cú nhảy vọt về hiệu năng để học tập cùng với thời lượng pin lên đến 20 giờ.(1). Để bạn được thỏa sức sáng tạo dù đi bất kỳ nơi đâu.</p>\n<h3>Tính năng nổi bật</h3>\n<ul><li>Chip Apple M1 mang đến một bước đột phá về hiệu năng máy học, CPU và GPU</li>\n<li>CPU 8 lõi cho hiệu năng nhanh hơn đến 2.8x, xử lý công việc nhanh chóng hơn bao giờ hết(2)</li>\n<li>GPU 8 lõi cho hiệu năng nhanh hơn đến 5x cho các ứng dụng đòi hỏi cao về đồ họa(2)</li>\n<li>Neural Engine 16 lõi cho công nghệ máy học hiện đại</li>\n<li>Làm được nhiều việc hơn với thời lượng pin lên đến 20 giờ(1)</li>\n<li>Bộ nhớ thống nhất 8GB hoặc 16GB giúp bạn làm việc gì cũng nhanh chóng và trôi chảy</li>\n<li>Ổ lưu trữ SSD siêu nhanh giúp mở các ứng dụng và tập tin chỉ trong tích tắc</li>\n<li>Màn hình Retina 13.3 inch với độ sáng 500 nit cho màu sắc sống động và chi tiết ấn tượng(3)</li>\n<li>macOS Monterey cho phép bạn kết nối, chia sẻ và sáng tạo hơn bao giờ hết, sử dụng các Phím Tắt để làm bài nhanh hơn và chọn chế độ Tập Trung để tránh bị sao nhãng</li>\n<li>Hệ thống tản nhiệt chủ động mang lại hiệu năng tuyệt vời</li>\n<li>Camera FaceTime HD với bộ xử lý tín hiệu hình ảnh tiên tiến cho các cuộc gọi video đẹp hình, rõ tiếng hơn</li>\n<li>Ba micro phối hợp chất lượng chuẩn studio thu giọng nói của bạn rõ hơn</li>\n<li>Kết nối không dây nhanh với Wi-Fi 6</li>\n<li>Hai cổng Thunderbolt / USB 4 để sạc và kết nối phụ kiện</li>\n<li>Bàn phím Magic Keyboard có đèn nền với Touch Bar và Touch ID giúp mở khóa an toàn hơn</li>\n<li>Hiện có màu xám bạc và bạc</li>\n</ul><h3>Pháp lý</h3>\n<p>Hiện có sẵn các lựa chọn để nâng cấp.</p>\n<p>(1) Thời lượng pin khác nhau tùy theo cách sử dụng và cấu hình. Truy cập  để biết thêm thông tin.</p>\n<p>(2) So với thế hệ trước.</p>\n<p>(3) Kích thước màn hình tính theo đường chéo.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/media/catalog/producttmp/af/70/04/6b7b83603139015101226cdf04e2c4eb.jpg",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/media/catalog/producttmp/af/70/04/6b7b83603139015101226cdf04e2c4eb.jpg",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/media/catalog/producttmp/af/70/04/6b7b83603139015101226cdf04e2c4eb.jpg",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/af/70/04/6b7b83603139015101226cdf04e2c4eb.jpg",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/af/70/04/6b7b83603139015101226cdf04e2c4eb.jpg"
+      },
+      "name": "MacBook Pro (13-inch, M1)",
+      "sale_price": 30050000,
+      "original_price": 35200000,
+      "quantity_sold": {
+        "text": "Đã bán 1000+",
+        "value": 1706
+      },
+      "rating": 4.8,
+      "short_description": "Tiêu đềSức mạnh để tiến xa hơn trong học tập.MacBook Pro. Nay có chip Apple M1.MacBook Pro. Sức mạnh cho học tập.Tiếp thêm sức mạnh cho sinh viên.Nội dung quảng cáoMacBook Pro 13 inch siêu mạnh ...",
+      "specifications": [
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": "Apple"
+        },
+        {
+          "code": "brand_country",
+          "name": "Xuất xứ thương hiệu",
+          "value": "Mỹ"
+        },
+        {
+          "code": "origin",
+          "name": "Xuất xứ",
+          "value": "Trung Quốc"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "categories": {
+        "id": 2458,
+        "name": "Macbook",
+        "is_leaf": true
+      },
+      "description": "<h5>Nội dung tính năng</h5>\n<p><span>Mac mini với chip Apple M1. CPU nhanh hơn đến 3x, GPU nhanh hơn đến 6x và Neural Engine mạnh mẽ với công <br />nghệ máy học nhanh hơn đến 15x.* Cho hiệu năng khủng mà kích cỡ không đổi.<br /><br />Chip Apple M1 đưa Mac mini lên một đẳng cấp hiệu năng hoàn toàn mới. Với hiệu năng CPU nhanh hơn đến 3x, tốc <br />độ xử lý đồ họa nhanh hơn đến 6x, Neural Engine mạnh mẽ với công nghệ máy học nhanh hơn đến 15x và bộ nhớ <br />thống nhất siêu nhanh – tất cả gói gọn trong một thiết kế cực kỳ nhỏ gọn.* Để bạn có thể sáng tạo, làm việc và giải <br />trí trên chiếc Mac mini có tốc độ và sức mạnh vượt xa những gì bạn từng tưởng tượng.</span></p>\n<h5><span>Tính năng nổi bật</span></h5>\n<ul><li><span>Chip M1 do Apple thiết kế tạo ra một cú nhảy vọt về hiệu năng máy học, CPU và GPU<br /></span></li>\n<li><span>CPU 8 lõi cho hiệu năng nhanh hơn đến 3x, xử lý các luồng công việc nhanh hơn bao giờ hết*<br /></span></li>\n<li><span>GPU 8 lõi với tốc độ xử lý đồ họa nhanh gấp 6x cho các ứng dụng và game có đồ họa khủng*<br /></span></li>\n<li><span>Neural Engine 16 lõi cho công nghệ máy học hiện đại</span></li>\n<li><span>Bộ nhớ thống nhất 8GB giúp bạn làm việc gì cũng nhanh chóng và trôi chảy<br /></span></li>\n<li><span>Ổ lưu trữ SSD siêu nhanh khởi chạy ứng dụng và mở tập tin chỉ trong tích tắc<br /></span></li>\n<li><span>Hệ thống tản nhiệt tiên tiến mang lại hiệu năng đột phá<br /></span></li>\n<li><span>Wi-Fi 6 thế hệ mới giúp kết nối nhanh hơn<br /></span></li>\n<li><span>Hai cổng Thunderbolt / USB 4, một cổng HDMI 2.0, hai cổng USB-A và Gigabit Ethernet<br /></span></li>\n<li><span>macOS sở hữu thiết kế ấn tượng, dễ sử dụng và phối hợp mượt mà với iPhone<br /></span></li>\n<li><span>Thiết kế 7.7 inch vuông, siêu nhỏ gọn với màu bạc</span></li>\n</ul><h5>Pháp lý</h5>\n<p><span>Hiện có sẵn các lựa chọn để nâng cấp.<br />*So với thế hệ máy trước.<br /></span></p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/media/catalog/producttmp/06/82/c6/e0f8d112aab56066b271a368012bcb80.jpg",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/media/catalog/producttmp/06/82/c6/e0f8d112aab56066b271a368012bcb80.jpg",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/media/catalog/producttmp/06/82/c6/e0f8d112aab56066b271a368012bcb80.jpg",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/06/82/c6/e0f8d112aab56066b271a368012bcb80.jpg",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/06/82/c6/e0f8d112aab56066b271a368012bcb80.jpg"
+      },
+      "name": "Mac Mini M1",
+      "sale_price": 17390000,
+      "original_price": 17390000,
+      "quantity_sold": {
+        "text": "Đã bán 351",
+        "value": 351
+      },
+      "rating": 5,
+      "short_description": "Nội dung tính năngMac mini với chip Apple M1. CPU nhanh hơn đến 3x, GPU nhanh hơn đến 6x và Neural Engine mạnh mẽ với công nghệ máy học nhanh hơn đến 15x.* Cho hiệu năng khủng mà kích cỡ không đổi.Ch...",
+      "specifications": [
+        {
+          "code": "bluetooth",
+          "name": "Bluetooth",
+          "value": "Bluetooth 5.0 wireless technology"
+        },
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": "Apple"
+        },
+        {
+          "code": "brand_country",
+          "name": "Xuất xứ thương hiệu",
+          "value": "Mỹ"
+        },
+        {
+          "code": "card_mang_hinh",
+          "name": "Card đồ họa",
+          "value": "8-core GPU"
+        },
+        {
+          "code": "chip_set",
+          "name": "Chip set",
+          "value": "Apple M1 chip with 8-core CPU, 8-core GPU, and 16-core Neural Engine"
+        },
+        {
+          "code": "cong_ket_noi",
+          "name": "Kết nối",
+          "value": "Two Thunderbolt, Two USB-A ports, HDMI 2.0 port, Gigabit Ethernet port, 3.5 mm headphone jack"
+        },
+        {
+          "code": "dimensions",
+          "name": "Kích thước",
+          "value": "<p>3.6 cm x 19.7 cm x 19.7 cm</p>"
+        },
+        {
+          "code": "dung_luong_dientu",
+          "name": "Dung lượng ổ cứng",
+          "value": "256GB"
+        },
+        {
+          "code": "item_model_number",
+          "name": "Model",
+          "value": "MGNT3SA/A"
+        },
+        {
+          "code": "loai_o_dia",
+          "name": "Loại ổ đĩa",
+          "value": "SSD"
+        },
+        {
+          "code": "network_internet",
+          "name": "Cổng internet (LAN)",
+          "value": "IEEE 802.11a/b/g/n/ac compatible"
+        },
+        {
+          "code": "origin",
+          "name": "Xuất xứ",
+          "value": "Trung Quốc"
+        },
+        {
+          "code": "product_weight",
+          "name": "Trọng lượng",
+          "value": "1.2 kg"
+        },
+        {
+          "code": "ram",
+          "name": "RAM",
+          "value": "8GB"
+        },
+        {
+          "code": "system_requirements",
+          "name": "Hệ điều hành",
+          "value": "MacOS Big Sur"
+        },
+        {
+          "code": "wifi",
+          "name": "Wifi",
+          "value": "802.11ax Wi-Fi 6 wireless networking"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "categories": {
+        "id": 2458,
+        "name": "Macbook",
+        "is_leaf": true
+      },
+      "description": "<h5>Nội dung tính năng</h5>\n<p><span>Mac mini với chip Apple M1. CPU nhanh hơn đến 3x, GPU nhanh hơn đến 6x và Neural Engine mạnh mẽ với công <br />nghệ máy học nhanh hơn đến 15x.* Cho hiệu năng khủng mà kích cỡ không đổi.<br /><br />Chip Apple M1 đưa Mac mini lên một đẳng cấp hiệu năng hoàn toàn mới. Với hiệu năng CPU nhanh hơn đến 3x, tốc <br />độ xử lý đồ họa nhanh hơn đến 6x, Neural Engine mạnh mẽ với công nghệ máy học nhanh hơn đến 15x và bộ nhớ <br />thống nhất siêu nhanh – tất cả gói gọn trong một thiết kế cực kỳ nhỏ gọn.* Để bạn có thể sáng tạo, làm việc và giải <br />trí trên chiếc Mac mini có tốc độ và sức mạnh vượt xa những gì bạn từng tưởng tượng.</span></p>\n<h5><span>Tính năng nổi bật</span></h5>\n<ul><li><span>Chip M1 do Apple thiết kế tạo ra một cú nhảy vọt về hiệu năng máy học, CPU và GPU<br /></span></li>\n<li><span>CPU 8 lõi cho hiệu năng nhanh hơn đến 3x, xử lý các luồng công việc nhanh hơn bao giờ hết*<br /></span></li>\n<li><span>GPU 8 lõi với tốc độ xử lý đồ họa nhanh gấp 6x cho các ứng dụng và game có đồ họa khủng*<br /></span></li>\n<li><span>Neural Engine 16 lõi cho công nghệ máy học hiện đại</span></li>\n<li><span>Bộ nhớ thống nhất 8GB giúp bạn làm việc gì cũng nhanh chóng và trôi chảy<br /></span></li>\n<li><span>Ổ lưu trữ SSD siêu nhanh khởi chạy ứng dụng và mở tập tin chỉ trong tích tắc<br /></span></li>\n<li><span>Hệ thống tản nhiệt tiên tiến mang lại hiệu năng đột phá<br /></span></li>\n<li><span>Wi-Fi 6 thế hệ mới giúp kết nối nhanh hơn<br /></span></li>\n<li><span>Hai cổng Thunderbolt / USB 4, một cổng HDMI 2.0, hai cổng USB-A và Gigabit Ethernet<br /></span></li>\n<li><span>macOS sở hữu thiết kế ấn tượng, dễ sử dụng và phối hợp mượt mà với iPhone<br /></span></li>\n<li><span>Thiết kế 7.7 inch vuông, siêu nhỏ gọn với màu bạc</span></li>\n</ul><h5>Pháp lý</h5>\n<p><span>Hiện có sẵn các lựa chọn để nâng cấp.<br />*So với thế hệ máy trước.<br /></span></p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": {
+        "base_url": "https://salt.tikicdn.com/media/catalog/producttmp/06/82/c6/e0f8d112aab56066b271a368012bcb80.jpg",
+        "is_gallery": true,
+        "label": null,
+        "large_url": "https://salt.tikicdn.com/cache/w1200/media/catalog/producttmp/06/82/c6/e0f8d112aab56066b271a368012bcb80.jpg",
+        "medium_url": "https://salt.tikicdn.com/cache/w300/media/catalog/producttmp/06/82/c6/e0f8d112aab56066b271a368012bcb80.jpg",
+        "position": null,
+        "small_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/06/82/c6/e0f8d112aab56066b271a368012bcb80.jpg",
+        "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/06/82/c6/e0f8d112aab56066b271a368012bcb80.jpg"
+      },
+      "name": "Mac Mini M1",
+      "sale_price": 17390000,
+      "original_price": 17390000,
+      "quantity_sold": {
+        "text": "Đã bán 351",
+        "value": 351
+      },
+      "rating": 5,
+      "short_description": "Nội dung tính năngMac mini với chip Apple M1. CPU nhanh hơn đến 3x, GPU nhanh hơn đến 6x và Neural Engine mạnh mẽ với công nghệ máy học nhanh hơn đến 15x.* Cho hiệu năng khủng mà kích cỡ không đổi.Ch...",
+      "specifications": [
+        {
+          "code": "bluetooth",
+          "name": "Bluetooth",
+          "value": "Bluetooth 5.0 wireless technology"
+        },
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": "Apple"
+        },
+        {
+          "code": "brand_country",
+          "name": "Xuất xứ thương hiệu",
+          "value": "Mỹ"
+        },
+        {
+          "code": "card_mang_hinh",
+          "name": "Card đồ họa",
+          "value": "8-core GPU"
+        },
+        {
+          "code": "chip_set",
+          "name": "Chip set",
+          "value": "Apple M1 chip with 8-core CPU, 8-core GPU, and 16-core Neural Engine"
+        },
+        {
+          "code": "cong_ket_noi",
+          "name": "Kết nối",
+          "value": "Two Thunderbolt, Two USB-A ports, HDMI 2.0 port, Gigabit Ethernet port, 3.5 mm headphone jack"
+        },
+        {
+          "code": "dimensions",
+          "name": "Kích thước",
+          "value": "<p>3.6 cm x 19.7 cm x 19.7 cm</p>"
+        },
+        {
+          "code": "dung_luong_dientu",
+          "name": "Dung lượng ổ cứng",
+          "value": "256GB"
+        },
+        {
+          "code": "item_model_number",
+          "name": "Model",
+          "value": "MGNT3SA/A"
+        },
+        {
+          "code": "loai_o_dia",
+          "name": "Loại ổ đĩa",
+          "value": "SSD"
+        },
+        {
+          "code": "network_internet",
+          "name": "Cổng internet (LAN)",
+          "value": "IEEE 802.11a/b/g/n/ac compatible"
+        },
+        {
+          "code": "origin",
+          "name": "Xuất xứ",
+          "value": "Trung Quốc"
+        },
+        {
+          "code": "product_weight",
+          "name": "Trọng lượng",
+          "value": "1.2 kg"
+        },
+        {
+          "code": "ram",
+          "name": "RAM",
+          "value": "8GB"
+        },
+        {
+          "code": "system_requirements",
+          "name": "Hệ điều hành",
+          "value": "MacOS Big Sur"
+        },
+        {
+          "code": "wifi",
+          "name": "Wifi",
+          "value": "802.11ax Wi-Fi 6 wireless networking"
+        }
+      ],
+      "id": 11
+    }
+  ]
+}

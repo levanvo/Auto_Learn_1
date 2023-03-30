@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- <script src="todo.js"></script> -->
+    <link rel="stylesheet" href=".css/todo.css">
+</head>
+
+<body>
+    <div class="all">
+        <div class="box1">
+            <input type="number" id="s1" placeholder="số ban đầu !">
+            <button class="w-44 h-8 hover:bg-sky-500" onclick="j()">Gán</button>
+        </div>
+        <h3>Số ban đầu: <span id="sbd"></span></h3>
+    </div>
+    <script>
+        function j() {
+            const y = function (ty, oi) {
+                return ty + oi;
+            }
+            let so1 = document.querySelector("#s1").value;
+
+            // let a = function (so1) {
+            //     console.log(so1);
+            //     return [so1];
+            // };
+            console.log( (y(so1,6)));
+            // document.querySelector("#sbd").innerHTML = y();
+        }
+
+        // let [a2,a3,a4,...a5]=a(33);
+        // console.log(a2);
+    </script>
+</body>
+
+</html>

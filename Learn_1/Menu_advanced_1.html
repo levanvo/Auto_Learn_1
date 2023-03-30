@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all{
+            width: 1111px;
+            margin: auto;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+        }
+        header{
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li{
+            padding: 5px 10px;
+            margin: 0 10px;
+            background-color: rgb(10, 10, 10);
+            color: aliceblue;
+            border-radius: 5px;
+        }
+        nav ul li:hover{
+            background-color: rgb(0, 0 ,0 ,0.7);
+        }
+        img{
+            height: 60px;
+            object-fit: none;
+            border-radius: 5px;
+        }
+        nav{
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        #o:checked ~ nav{
+            display: flex;
+            transform: translateY(0%);
+            transition: ease 1s;
+            opacity: 1;
+        }
+        #o1:checked ~ header{
+            background-color: pink;
+            transition: all 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <input type="checkbox" id="o1" hidden>
+        <header>
+            <input type="checkbox" id="o" hidden>
+            <nav >
+                <ul>
+                    <a href="#"><li>Thêm mới</li></a>
+                    <a href="#"><li>Thêm mới</li></a>
+                    <a href="#"><li>Thêm mới</li></a>
+                    <a href="#"><li>Thêm mới</li></a>
+                    <a href="#"><li>Thêm mới</li></a>
+                </ul>
+            </nav>
+            <label for="o"><img src="./img_test/da  (1).jpg" alt=""></label>
+        </header>
+        <label for="o1"><img src="./img_test/da  (1).jpg" alt=""></label>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+<body>
+    <canvas id="ai" width="800px" height="500px" style="border: 2px solid blue; "></canvas>
+    <script>
+        var a=document.querySelector("#ai");
+        var a1=a.getContext("2d");
+        var a2=a.getContext("2d");
+        var a3=a.getContext("2d");
+
+        a1.strokeStyle="green";
+        a1.lineWidth=6;
+        a1.strokeRect(50,25,100,100);
+        a1.fillStyle="yellow";
+        a1.fillRect(50,25,100,100);
+
+        a2.lineWidth=1;
+        a2.arc(300,110,70,0,Math.PI*2,false);
+        a2.stroke();
+
+        a3.moveTo(0,200);
+        a3.lineTo(550,350);
+        a3.stroke();
+
+            var color=a1.createLinearGradient(0,0,a.width,0);
+                color.addColorStop("0.6","violet");
+                color.addColorStop("0.7","aqua");
+                color.addColorStop("1","red");
+        a1.fillStyle=color;
+        a1.font="30px bold";
+        a1.fillText("hế lô các bạn",500,70);
+
+    </script>
+</body>
+</html>

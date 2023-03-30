@@ -1,0 +1,54 @@
+.text-banner{
+    transform: translateY(-270px);
+    text-align: center;
+    
+}
+.wrapper{
+    background-color: rgba(231, 227, 227, 0.844);
+    padding: 0px 100px;
+padding-bottom: 100px;
+}
+.local{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 50px 0px;
+}
+.box{
+    background: #fff;
+   padding: 1.5rem !important;
+}
+.form-lh{
+    display: flex;
+}
+.form{
+    padding: 0 0 0 30px;
+
+}
+form{
+    width: 560px;
+    padding: 40px;
+    height:  560px;
+    background: #fff;
+
+}
+form> input{
+    width: 490px;
+    margin-bottom: 30px ;
+    padding-left: 10px;
+    height: 50px;
+    outline: none;
+    border: 1px solid gray;
+}
+form> button{
+    padding: 15px 35px;
+    font-size: 18px;
+    background-color: #91ba41;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+form> button:hover{
+    background-image: -webkit-linear-gradient(35deg, #91ad41 0%, #86f10b 100%);
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        button,input{
+            border: 1px solid pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <form class="ok" action="">
+            <label><input type="text" id="io"></label>
+            <button>Ok luôn</button>
+        </form>
+    </div>
+    <button onclick="loi()">Xóa hết</button>
+    <script>
+        // const local=JSON.parse(localStorage.getItem("vole"));
+        const form=document.querySelector(".ok");
+        const take=document.getElementById("io");
+
+        form.addEventListener("click",function(){
+
+            const dataa=take.value;
+            local=dataa;
+            
+            JSON.stringify(localStorage.setItem("vole",dataa));
+        });
+
+    </script>
+
+    <div class="alll">
+        <div class="text">
+            <h1>All Data exits</h1>
+            <p id="get"></p>
+        </div>
+    </div>
+    <script>
+            let item=JSON.stringify(localStorage.getItem("vole"));
+            document.getElementById("get").innerHTML=item;
+        function loi(){
+            let p="";
+            JSON.stringify(localStorage.setItem("vole",p));
+        }
+    </script>
+</body>
+</html>

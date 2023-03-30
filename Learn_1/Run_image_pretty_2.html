@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .all{
+            width: 1111px;
+            border: 1px dashed red;
+            margin: auto;
+            position: relative;
+        }
+        .img{
+            width: 300px;
+            height: 450px;
+            position: absolute;
+            left: 430px;
+            transition: all 1s;
+        }
+        .a{
+            margin: 460px 0 0 380px;
+        }
+        button{
+            width: 200px;
+            height: 40px;
+            background-color: aliceblue;
+            color: black;
+        }
+        button:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <img class="img" src="./img_project/a1.jpg" alt="">
+        <img class="img" src="./img_project/a2.jpg" alt="">
+        <img class="img" src="./img_project/a3.jpg" alt="">
+        <div class="a">
+            <button onclick="a1()">Next</button>
+            <button onclick="a2()">Prev</button>
+        </div>
+    </div>
+    <script>
+        var c=document.querySelectorAll(".img");
+        var y=0;
+        function a1(){
+            y++;
+            if(y>2){
+                y=0;
+            }
+            for(i=0;i<c.length;i++){
+                c[i].style.opacity=0;
+            }
+            c[y].style.opacity=1;
+        }
+        function a2(){
+            y--;
+            if(y<0){
+                y=2;
+            }
+            for(i=0;i<c.length;i++){
+                c[i].style.opacity=0;
+            }
+            c[y].style.opacity=1;
+        }
+    </script>
+</body>
+</html>

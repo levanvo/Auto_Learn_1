@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <script>
+        function levanvo(firstname,lastname,avatar){
+            this.firstname=firstname;
+            this.lastname=lastname;
+            this.avatar=avatar;
+        }
+        var sui=new levanvo("lê","văn võ","avatar new");
+        sui.add1="ok mới nè";
+        levanvo.prototype.add2="okđi";//in function levanvo by has been create new ---- let say levanvo.(?) to show
+        levanvo.prototype.add3=function(){//in function levanvo by has been create new ---- let say levanvo.(?) to show
+            return this.add2;
+        }
+        console.log(sui);
+        console.log(sui.add2);//in function levanvo by has been create new ---- let say levanvo.(?) to show
+    </script>
+    <script>
+        let okl={
+            name:"văn võ",
+            age:22.5,
+            address:"Thanh Hóa",
+        }
+        console.log("Mới object: "+okl.name);
+    </script>
+</body>
+</html>

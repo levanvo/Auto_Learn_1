@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            transition: ease 1s;
+            top: 0;
+            left: 400px;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <img class="a" src="./img/Rectangle-13.png" alt="">
+    <img class="a" src="./img/Rectangle-14.png" alt="">
+    <img class="a" src="./img/Rectangle-15.png" alt="">
+    <img class="a" src="./img/Rectangle-16.png" alt="">
+<h1 id="i">0</h1>
+<h1>Ảnh thứ: <span id="i2">1</span></h1>
+<button onclick="p1()">Next</button>
+<button onclick="p2()">Prev</button>
+    <script>
+        var current=0;
+        var v1=-2;
+        var v2=0;
+        var v3=0;
+        var o=document.querySelectorAll(".a");
+        function p1(){
+            v1++;
+            v2++;
+            for(var i=0;i<o.length;i++){
+                o[i].style.opacity=0;
+            }
+            if(current>o.length-2){
+                current=0;
+            }else{
+                current+=1;
+            }
+            if(v2>4){
+                v2=1;
+            }
+                document.getElementById("i2").innerHTML=v2;
+                document.getElementById("i").innerHTML="Số lần lặp: "+Math.round(v1/4);
+            o[current].style.opacity=1;
+        }
+        function p2(){
+            v1--;
+            v2--;
+            for(var i=0;i<o.length;i++){
+                o[i].style.opacity=0;
+            }
+            if(current<=0){
+                current=o.length-1;
+            }else{
+                current-=1;
+            }
+            if(v2>4){
+                v2=1;
+            }
+                document.getElementById("i2").innerHTML=v2;
+                document.getElementById("i").innerHTML="Số lần lặp: "+Math.round(v1/4);
+            o[current].style.opacity=1;
+        }
+        //  setInterval("p()",1000);
+        
+         
+    </script>
+</body>
+</html>

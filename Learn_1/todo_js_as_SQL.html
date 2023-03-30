@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        img {
+            width: 200px;
+            height: 250px;
+        }
+        input{
+            outline: 0;
+            border: 1px solid orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all flex justify-center">
+        <input type="text" placeholder="enter quantity ?" id="quantity">
+        <button class="w-44 h-8 bg-black text-white font-bold" onclick="ok()">Ok</button>
+    </div>
+    <br>
+    <div class="all grid grid-cols-5 w-[1200px] border border-red-500 mx-auto" id="op">
+        <!-- <div class="col-span-1" id="op"></div> -->
+    </div>
+    <script>
+        var all = document.getElementById("op");
+
+        // if(all.innerHTML==""){
+        //     all.innerHTML ="<div class='text-4xl text-center font-bold text-orange-500'>Not Image</div>";
+        // }
+        function ok() {
+            let xem = document.querySelector("#quantity").value;
+            for (r = 0; r < xem; r++) {
+                all.innerHTML += '<img class="col-span-1" src="./Learn_2/img_more/anh5.jpg" alt="">';
+            }
+        }
+    </script>
+</body>
+
+</html>

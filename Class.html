@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       class Overview{
+            constructor(name,age,school,majors){
+                this.name=name;
+                this.age=age;
+                this.school=school;
+                this.majors=majors;
+            };
+            hocBai(){
+                console.log("Dang Hoc Bai");
+            };
+            get GetAge(){
+                return this.age;
+            };
+            set SetAge(age){
+                return this.age=age;
+            };
+       };
+    const sv1=new Overview("Võ Lê",23,"FPT polytechnic","Developer");
+    // const Create_class=new Overview(33*2);
+    console.log(sv1.GetAge);
+    sv1.SetAge=18;
+    console.log(sv1);
+    console.log(sv1.hocBai());
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all {
+            display: flex;
+            justify-content: center;
+        }
+        .size {
+            /* padding: 10px; */
+        }
+        
+        img{
+            width: 300px;
+        }
+        .image a {
+            display: block;
+            position: relative;
+            margin: 0 10px;/* Attention by distance*/
+        }
+        .image a::before {
+            content: "";
+            bottom: 0;
+            left: 50%;
+            right: 50%;
+            top: 0;
+            position: absolute;
+            background: rgba(0, 0, 0, .2);
+        }
+        .image a::after {
+            content: "";
+            bottom: 50%;
+            top: 50%;
+            left: 0;
+            right: 0;
+            position: absolute;
+            background: rgba(0, 0, 0, .2);
+        }
+        .image:hover a:before {
+            left: 0;
+            right: 0;
+            transition: ease 1s;
+        }
+        .image:hover a:after {
+            bottom: 0;
+            top: 0;
+            transition: ease 1s;
+        }
+        .h{
+            object-fit: none;
+        }
+        /* .image{
+            max-width: 330px;
+            max-height: 260px;
+        } */
+    </style>
+</head>
+<body>
+<div class="all">
+        <div class=" image">
+            <a href="#">
+                <img class="size1 w-100" src="./img_html5.css3/pexels-nextvoyage-490466.jpg" alt="banner left" title="banner left">
+            </a>
+        </div>
+        <div class=" image">
+            <a href="#">
+                <img class="size2 h w-100" src="./img_html5.css3/pexels-nextvoyage-490466.jpg" alt="banner left" title="banner left">
+            </a>
+        </div>
+        <img class="h" src="./img_html5.css3/pexels-jahoo-clouseau-388415.jpg" alt="">
+</div>
+</body>

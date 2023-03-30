@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .button img{
+            width: 50px;
+            float: right;
+        }
+        .image img{
+            width: 130px;
+            border: 5px solid salmon;
+        }
+        .me{
+            position: relative;
+            margin-top: 5px;
+        }
+        .me>li{
+            display: inline-table;
+        }
+        .me li{
+            margin-right: 20px;
+            width: 150px;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid white;
+        }
+        .me li:hover{
+            border: 2px solid black;
+            color: black;
+            background-color: white;
+            transition: ease 0.111s;
+        }
+        .me li:hover>.con{
+            display: block;
+            margin: 0 0 0 -2px;
+        }
+        .me li:hover>.con li{
+            margin-top: 5px;
+            width: 250px;
+        }
+        .con{
+            position: absolute;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="lg:w-[1350px] md:w-[850px] w-[500px] grid lg:grid-cols-10 grid-cols-3">
+        <div class="image col-span-1">
+            <img src="img/Rectangle-16.png" alt="">
+        </div>
+        <div class="menu mx-auto lg:col-span-8  col-span-1 hidden lg:flex" id="vo1">
+            <ul class="me">
+                <li><b>Giải trí_1</b>
+                    <ul class="con">
+                        <li>game1</li>
+                        <li>game2</li>
+                        <li>game3</li>
+                    </ul>
+                </li>
+                <li><b>Giải trí_2</b>
+                    <ul class="con">
+                        <li>game1</li>
+                        <li>game2</li>
+                        <li>game3</li>
+                    </ul>
+                </li>
+                <li><b>Giải trí_3</b>
+                    <ul class="con">
+                        <li>game1</li>
+                        <li>game2</li>
+                        <li>game3</li>
+                    </ul>
+                </li>
+                <li><b>Giải trí_4</b>
+                    <ul class="con">
+                        <li>game1</li>
+                        <li>game2</li>
+                        <li>game3</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="button z-10 col-span-1" id="vo2">
+            <img class="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGoXV-OUFcdT0td8kZN66RqGoXRYwy7KmTHQ&usqp=CAU" alt="">
+        </div>
+    </div>
+    <script>
+        var off=document.getElementById("vo1");
+        var on=document.getElementById("vo2");
+        on.addEventListener("click",function(){
+            off.classList.toggle("hidden");
+        })
+    </script>
+</body>
+</html>

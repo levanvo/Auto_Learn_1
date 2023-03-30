@@ -1,0 +1,143 @@
+.text-banner{
+    transform: translateY(-290px);
+    text-align: center;
+    
+}
+.container{
+    display: flex;
+    margin: 30px 120px;
+}
+.blog-content, .blog{
+    display: flex;
+    align-items: center;
+}
+.blog-img1, .blog-img2, .blog-img3, .blog-img4, .blog-img5, .blog-img6 {
+    display:block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 80px;
+}
+/* .blog-img1{
+    background-image: url('../../img/image_1.jpg');
+}
+.blog-img2{
+    background-image: url('../../img/image_2.jpg');
+}
+.blog-img3{
+    background-image: url('../../img/image_3.jpg');
+}
+.blog-img4{
+    background-image: url('../../img/image_4.jpg');
+}
+.blog-img5{
+    background-image: url('../../img/image_5.jpg');
+}
+.blog-img6{
+    background-image: url('../../img/image_6.jpg');
+} */
+.img-3{
+   width: 275px;
+   height: 250px;
+   padding: 3rem !important;
+   position: relative;
+}
+.noidung{
+    margin-left: 20px;
+    width: 490px;
+}
+.noidung> span{
+    color: gray;
+}
+.noidung>h3{
+    font-size: 23px;
+    margin: 30px 0 20px 0;
+}
+.noidung>h3:hover{
+color: #91ad41;
+
+}
+.noidung>p{
+    font-size: 18px;
+    color: gray;
+}
+.noidung>button{
+    padding: 15px 25px;
+    background-color: #91ad41;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: #fff;
+}
+.noidung>button:hover{
+background-image: -webkit-linear-gradient(35deg, #91ad41 0%, #86f10b 100%);
+}
+/*--------right-content------*/
+.right-content{
+    margin-left: 35px;
+}
+.right-content .timkiem>input{
+    height: 45px;
+    width: 280px;
+    padding: 10px;
+    margin-top: 30px;
+    outline: none;
+}
+.right-content .timkiem> i{
+    margin-left: -30px;
+}
+.blog{
+    height: 140px;
+    margin-bottom: 10px;
+}
+.top-blog> h3, .tag>h3, .bai-viet>h3{
+padding: 150px 0px 30px 0px;
+font-size: 20px;
+}
+.noidung-content{
+    margin-left: 80px;
+}
+.noidung-content> span{
+    color: gray;
+    font-size: 13px;
+}
+.noidung-content>h3{
+    font-size: 17px;
+    color: gray;
+
+}
+.noidung-content>h3:hover{
+color: #91ad41;
+
+}
+.noidung-content>p{
+    font-size: 18px;
+    color: gray;
+}
+.img-5{
+    width: 75px;
+    height: 50px;
+    padding: 3rem !important;
+    position: relative;
+ }
+
+ .tag > button{
+     padding: 10px;
+     border: 1px solid gainsboro;
+     background-color: #fff;
+     border-radius: 5px;
+    text-transform: uppercase;
+    
+ }
+ .tag > button:hover{
+    background-color: #91ad41;
+    color: #fff;
+    
+ }
+
+ 
+.bai-viet{
+    font-size: 15px;
+    line-height: 20px;
+    color: gray;
+}

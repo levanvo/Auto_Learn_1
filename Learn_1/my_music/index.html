@@ -100,86 +100,36 @@
         </div>
     </div>
     <div class="key1">
-        <input id="trinhkhanhly3" value="17072003" hidden>
-        <input id="trinhkhanhly2" value="17072002" hidden>
-        <input id="trinhkhanhly1" value="17072001" hidden>
-        <input id="trinhkhanhly" value="trinhkhanhly" hidden>
-        
-        <input id="nguyenbichngoc2" value="31122000" hidden>
-        <input id="nguyenbichngoc1" value="30122000" hidden>
-        <input id="nguyenbichngoc" value="nguyenbichngoc" hidden>
-        
-        <input id="truongxuanphuong" value="truongxuanphuong" hidden>
-        
-        <input id="thugiangnguyen3" value="17032003" hidden>
-        <input id="thugiangnguyen2" value="17032002" hidden>
-        <input id="thugiangnguyen1" value="17032001" hidden>
-        <input id="thugiangnguyen" value="thugiangnguyen" hidden>
-        
-        <input id="dothitrang1" value="13012003" hidden>
-        <input id="dothitrang" value="dothitrang" hidden>
-        
-        <input id="chang" value="nguyenthitrang" hidden>
-        
-        <input id="dokimngan" value="dokimngan" hidden>
-        
+    <input id="truongxuanphuong" value="truongxuanphuong" hidden>
         <div class="key3">
             <h2 class="h2">Nhập <span class="color">ngày tháng năm sinh</span> hoặc <span class="color">họ tên (chữ thường viết liền không dấu)</span> của bạn !!!</h2>
             <input class="input" type="search" id="pass">
-            <br>
-            <div class="o">
-                <button class="button" onclick="h()">Mở</button>
-            </div>
+                <br>
+                    <div class="o">
+                        <button class="button" onclick="h()">Mở</button>
+                    </div>
+                </div>
         </div>
-    </div>
-    <script>
-        document.addEventListener("keydown", function (event){
+        <script>
+            document.addEventListener("keydown", function (event){
             if (event.ctrlKey){
-            event.preventDefault();
+                event.preventDefault();
             }
             if(event.keyCode == 123){
-            event.preventDefault();
+                event.preventDefault();
             }
         });
         document.addEventListener("contextmenu",event => event.preventDefault());
-        var key1 = document.querySelector(".key1");
-        var key2 = document.querySelector(".key2");
-            var ly=document.getElementById("trinhkhanhly");
-            var lyy=ly.getAttribute("value");
-            var ly1=document.getElementById("trinhkhanhly1");
-            var lyy1=ly1.getAttribute("value");
-            var ly2=document.getElementById("trinhkhanhly2");
-            var lyy2=ly2.getAttribute("value");
-            var ly3=document.getElementById("trinhkhanhly3");
-            var lyy3=ly3.getAttribute("value");
-            var ngoc=document.getElementById("nguyenbichngoc");
-            var ngocc=ngoc.getAttribute("value");
-            var ngoc1=document.getElementById("nguyenbichngoc1");
-            var ngocc1=ngoc1.getAttribute("value");
-            var ngoc2=document.getElementById("nguyenbichngoc2");
-            var ngocc2=ngoc2.getAttribute("value");
             var phuong=document.getElementById("truongxuanphuong");
             var phuongg=phuong.getAttribute("value");
-            var giang=document.getElementById("thugiangnguyen");
-            var giangg=giang.getAttribute("value");
-            var giang1=document.getElementById("thugiangnguyen1");
-            var giangg1=giang1.getAttribute("value");
-            var giang2=document.getElementById("thugiangnguyen2");
-            var giangg2=giang2.getAttribute("value");
-            var giang3=document.getElementById("thugiangnguyen3");
-            var giangg3=giang3.getAttribute("value");
-            var giang4=document.getElementById("thugiangnguyen4");
-            var giangg4=giang4.getAttribute("value");
-        function h(){
+            function h(){
             var x=pass.value;
-            if(x==lyy || x==lyy1 || x==lyy2 || x==lyy3 || x==ngocc || x==ngocc1 || x==ngocc2 
-            || x==phuongg || x==giangg || x==giangg1 || x==giangg2 || x==giangg3 
-            || x==giangg4 || x=="dothitrang" || x=="13012003" || x=="nguyenthitrang" || x=="dokimngan"){
-                key2.style.opacity=1;
-                key1.style.opacity=0;
+            if(x==phuongg){
+                key2.style.opacity = 1;
+            key1.style.opacity=0;
             }
             else{
-                alert("Mã : "+ x +" không phù hợp !!");
+                alert("Mã : " + x + " không phù hợp !!");
             }
         }
         function p(){

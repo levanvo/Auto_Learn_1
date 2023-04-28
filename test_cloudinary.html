@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <img class="w-44 h-44 " src="" alt="" id="a1">
+        <img class="w-44 h-44 " src="" alt="" id="a2">
+        <img class="w-44 h-44 " src="" alt="" id="a3">
+    </div>
+    <input type="file" multiple id="img">
+    <button onclick="choose()" class="border border-gray-500 w-44 h-10 hover:bg-black hover:text-white font-bold">Choose Image</button>
+    <button onclick="reset()" class="border border-gray-500 w-44 h-10 hover:bg-black hover:text-white font-bold">Reset Image</button>
+
+
+    <script>
+        const image = document.getElementById("img");
+
+        let a1 = document.getElementById("a1");
+        let a2 = document.querySelector("#a2");
+        let a3 = document.querySelector("#a3");
+        
+        image.onchange = (e) => {
+            if(a2!=""){
+                a1.src = URL.createObjectURL(image.files[0]);
+                a2.src = URL.createObjectURL(image.files[1]);
+            }
+            if(a2!="" & a3!=""){
+                a1.src = URL.createObjectURL(image.files[0]);
+                a2.src = URL.createObjectURL(image.files[1]);
+                a3.src = URL.createObjectURL(image.files[2]);
+            }
+            a1.src = URL.createObjectURL(image.files[0]);
+        }
+        function reset(){
+            a1.src=a2.src=a3.src="";
+        }
+        async function choose(){
+            const namePreset="vole_2k";
+            const nameCloud="darnprw0q";
+            const nameFolder="test";
+            const array=[];
+            const api=`https://api.cloudinary.com/v1_1/${nameCloud}/image/upload`;
+
+            const uploadImage=new FormData();
+
+            uploadImage.append("upload_preset",namePreset);
+            uploadImage.append("folder",nameFolder);
+
+            for(const file of image.files){
+                console.log(file);
+                uploadImage.append("file",file);
+
+                const data=await axios.post(api,uploadImage,{
+                    headers:{
+                        "Content-type":"multiple/form-data",
+                    }
+                });
+                array.push(data.data.url);
+                console.log(array);
+            }
+            // const data={name:"chao",id:4};
+            // axios.post("http://localhost:3000/game",data);
+            // axios.get("http://localhost:3000/game").then(({data})=>console.log(data))
+
+        }
+    </script>
+</body>
+
+</html>

@@ -11,6 +11,13 @@
     // const decryptedText = CryptoJS.AES.decrypt(encryptedText, 'vole').toString(CryptoJS.enc.Utf8);
     
     
-    //const getId= new URLSearchParams(window.location.search).get("id");
+    <button>Get -ID</button>
+    <a href="test.html?vanvo=8">hihi</a>
+    <script>
+        document.querySelector("button").onclick=()=>{
+            const xem=new URLSearchParams(window.location.search).get("vanvo");
+            console.log(xem);
+        }
+    </script>
 </body>
 </html>

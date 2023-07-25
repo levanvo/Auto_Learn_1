@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/sindresorhus/sindresorhus/main/main.gif
+<img src="https://raw.githubusercontent.com/sindresorhus/sindresorhus/main/main.gif">

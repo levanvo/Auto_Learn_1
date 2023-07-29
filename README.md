@@ -1,4 +1,4 @@
 
-if (Object.keys(array).some(key1 => array[key1] == "")) {
+if (Object.keys(object).some(key1 => object[key1] == "")) {
   alert("Form empty ?");
 }

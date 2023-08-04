@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .all{
+        .all {
             width: 1111px;
             margin: 0 auto;
         }
+
         header {
             width: 1111px;
             background-color: black;
@@ -20,6 +21,8 @@
             opacity: 1;
         }
     </style>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
 </head>
 
 <body>
@@ -36,62 +39,63 @@
                 </ul>
             </nav>
         </header>
-        <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
-        <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
+        
         <script>
             var k = $("header").addClass("vo");
-            $(document).ready(function() {
-                $(window).scroll(function() {
+            $(document).ready(function () {
+                $(window).scroll(function () {
                     if ($(this).scrollTop() <= 50) {
                         k.show();
-                        document.querySelector(".d").style.opacity=1;
+                        document.querySelector(".d").style.opacity = 1;
                     } else if ($(this).scrollTop() <= 250) {
                         k.hide();
-                        document.querySelector(".d").style.opacity=0;
+                        document.querySelector(".d").style.opacity = 0;
                     } else {
                         k.show();
-                        document.querySelector(".d").style.opacity=1;
+                        document.querySelector(".d").style.opacity = 1;
                     }
                 });
             });
         </script>
-        <p class="d">sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
+        <div class="">
+            <p class="d">sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
 
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
 
-        <p>sdsc</p>
-        <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
 
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
 
-        <p>sdsc</p>
-        <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
 
 
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
 
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-        <p>sdsc</p>
-    <!-- <script>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+            <p>sdsc</p>
+        </div>
+        <!-- <script>
         jQuery(document).ready(function($) {
             //selector đến menu cần làm việc
             // var TopFixMenu = $("#fixNav");
@@ -110,20 +114,17 @@
         })
     </script> -->
     </div>
-        <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ...">
-            Save changes
-        </button>
-        <script>
-            document.addEventListener("keydown", function (event){
-                if (event.ctrlKey){
+    <script>
+        document.addEventListener("keydown", function (event) {
+            if (event.ctrlKey) {
                 event.preventDefault();
-                }
-                if(event.keyCode == 123){
+            }
+            if (event.keyCode == 123) {
                 event.preventDefault();
-                }
-            });
-            document.addEventListener("contextmenu",event => event.preventDefault());
-        </script>
+            }
+        });
+        document.addEventListener("contextmenu", event => event.preventDefault());
+    </script>
 </body>
 
 </html>

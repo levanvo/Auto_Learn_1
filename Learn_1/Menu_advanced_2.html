@@ -5,154 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            text-decoration: none;
-            list-style: none;
-        }
-        body{
-            width: 1111px;
-            margin: auto;
-        }
-        .me{
+        .me1{
+            position: relative;
             display: flex;
             justify-content: center;
-            position: relative;
-        }
-        .me>li{
-            background-color: gray;
-            padding: 5px 30px;
-            margin: 10px 20px;
-        }
-        .me li:hover{
-            background-color: rgb(83, 83, 83);
-        }
-        .me li:hover >.con {
-            opacity: 1;
-            transition: ease 0.3s;
-            z-index: 1;
-            transform: translateY(5px);
-        }
-        .con{
-            position: absolute;
-            opacity: 0;
-            background-color: rgb(199, 214, 226,0.5);
-            transform: translateY(50px);
-            width: 200px;
             text-align: center;
-            margin-left: -30px;
         }
-        .me li:hover ~ .img{
-            z-index: 0;
-            transition: all 0;
-        }
-        .img{
-            width: 1111px;
-            height: 350px;
-            position: absolute;
-        }
-        .me li:nth-child(1) .con{
-            width: 500px;
-            height: auto;
-            margin-left: -100px;
-        }
-        .gg{
-            display: flex;
-            justify-content: space-around;
-        }
-        .img2,.k{
+        .me1 li{
+            transition: all 0.4s;
+            background-image: url(https://images.pexels.com/photos/2382325/pexels-photo-2382325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+            color: white;
+            font-weight: bold;
             width: 200px;
-            height: 300px;
+            height: 40px;
+            line-height: 38px;
+            margin: 0 5px 0 0;
         }
-        .p{
-            transform: translateY(0px);
-            transition: all 3s;
+        .me1 li:hover{
+            transition: all 0.4s;
+            background-image: url(https://images.pexels.com/photos/4484184/pexels-photo-4484184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
         }
-        .o #su:checked ~ .p{
-            transform: translateY(500px);
-            transition: all 7s;
+        .me1 li .e .s{
+            width: 200px;
+            height: 40px;
+            margin-top: 5px;
         }
-        .o #su:checked ~ .p h2{
-            color: red;
+        .me1 li .e{
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s;
+            position: absolute;
+            z-index: -1;
         }
-        h1{
-            margin-top: 50px;
-            font-size: 30px;
+        .me1 .g:hover .e{
+            opacity: 1;
+            transform: translateY(0);
+            transition: all 0.4s;
+            z-index: 1;
         }
     </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="me">
-                <li>Game
-                    <ul class="con">
-                        <div class="gg">
-                            <div class="g">
-                                <a href="#"><li>game1</li></a>
-                                <a href="#"><li>game1</li></a>
-                                <a href="#"><li>game1</li></a>
-                                <a href="#"><li>game1</li></a>
-                            </div>
-                            <div class="g">
-                                <a href="#"><li>game1</li></a>
-                                <a href="#"><li>game1</li></a>
-                                <a href="#"><li>game1</li></a>
-                                <a href="#"><li>game1</li></a>
-                            </div>
-                            <img class="img2" src="./project./img_project/a12.jpg" alt="">
+    <div class="w-[1222px] mx-auto">
+        <nav class="mb-5 mt-10">
+            <ul class="me1">
+                <a href="#"><li class="g">Game 1</a>
+                    <div class="e mt-3 bg-red-300 w-[800px] h-[400px] flex justify-center space-x-10">
+                        <div class="s">
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
+                            <a href="#"><p class=" bg-black hover:bg-gray-900">Bên trái</p></a>
                         </div>
-                        
-                    </ul>
+                        <div class="s hover:bg-gray-900 bg-black">
+                            <a href="#"><p>Bên phải</p></a>
+                        </div>
+                        <img class="w-[300px] h-[200px]" src="https://images.pexels.com/photos/4484184/pexels-photo-4484184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                    </div>
                 </li>
-                <li>Game
-                    <ul class="con">
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                    </ul>
-                </li>
-                <li>Game
-                    <ul class="con">
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                    </ul>
-                </li>
-                <li>Game
-                    <ul class="con">
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                    </ul>
-                </li>
-                <li>Game
-                    <ul class="con">
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                        <a href="#"><li>game1</li></a>
-                    </ul>
-                </li>
+                <li>Game 2</li>
+                <li>Game 3</li>
+                <li>Game 4</li>
             </ul>
         </nav>
-        <img class="img" src="http://www.elle.vn/wp-content/uploads/2017/10/17/elle-viet-nam-loai-cay-dep-16.jpg" alt="">
-    </header>
-    <main>
-        <div class="o">
-            <input type="checkbox" id="su" hidden>
-            <div class="p">
-                <img class="k" src="./project./img_project/a1.jpg" alt="">
-                <h2>võ lê</h2>
-            </div>
-            <label for="su"><h1>võ lê</h1></label>
-        </div>
-    </main>
+        <img class="w-[1222px] h-[555px]" src="https://file.hstatic.net/1000075078/file/desktop_feebd8ed12a54be691533bedfa44c7e3.jpg" alt="">
+    </div>
 </body>
 </html>
